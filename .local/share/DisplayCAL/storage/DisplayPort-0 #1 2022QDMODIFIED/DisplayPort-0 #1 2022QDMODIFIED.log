@@ -1,0 +1,833 @@
+2022-11-09 22:11:06,030 --------------------------------------------------------------------------------
+2022-11-09 22:11:06,030 Working directory:
+2022-11-09 22:11:06,030   /
+2022-11-09 22:11:06,031    tmp/
+2022-11-09 22:11:06,031     DisplayCAL-6Ee0al/
+2022-11-09 22:11:06,031 
+2022-11-09 22:11:06,031 Command line:
+2022-11-09 22:11:06,031   /usr/bin/argyll-dispcal
+2022-11-09 22:11:06,032     -v2
+2022-11-09 22:11:06,032     -d1
+2022-11-09 22:11:06,032     -c1
+2022-11-09 22:11:06,032     -yr
+2022-11-09 22:11:06,032     -P0.510057471264,0.22520661157,1.24867724868
+2022-11-09 22:11:06,032     -X
+2022-11-09 22:11:06,033     'Microstep MAG274QRF-QD (ColorMunki).ccss'
+2022-11-09 22:11:06,033     -ql
+2022-11-09 22:11:06,033     -t6500
+2022-11-09 22:11:06,033     -b120.0
+2022-11-09 22:11:06,033     -g2.2
+2022-11-09 22:11:06,033     -f1.0
+2022-11-09 22:11:06,034     -k0
+2022-11-09 22:11:06,034     -A4.0
+2022-11-09 22:11:06,034     -b
+2022-11-09 22:11:06,034     'DisplayPort-0 #1 2022QDMODIFIED'
+2022-11-09 22:11:06,034 
+2022-11-09 22:11:06,038 DisplayCAL: Starting interaction with subprocess
+2022-11-09 22:11:06,444 Setting up the instrument
+2022-11-09 22:11:07,469 Product Name:      Colormunki Display
+2022-11-09 22:11:07,469 Serial Number:     C1-22.B-02.015586.02
+2022-11-09 22:11:07,469 Firmware Version:  v2.28
+2022-11-09 22:11:07,469 Firmware Date:     29Jan14
+2022-11-09 22:11:07,471 argyll-dispcal: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-09 22:11:07,687 Place instrument on test window.
+2022-11-09 22:11:07,688 DisplayCAL: Detected instrument placement (screen/spot) message
+2022-11-09 22:11:07,689 DisplayCAL: Waiting for send buffer
+2022-11-09 22:11:09,190 DisplayCAL: Skipping place instrument on screen message...
+2022-11-09 22:11:09,219 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:11:09,270 Hit Esc or Q to give up, any other key to continue:
+2022-11-09 22:11:09,270 Display type is 'r'
+2022-11-09 22:11:09,271 Target white = 6500.000000 degrees kelvin Daylight spectrum
+2022-11-09 22:11:09,271 Target white brightness = 120.000000 cd/m^2
+2022-11-09 22:11:09,271 Target black brightness = native brightness
+2022-11-09 22:11:09,271 Black point device hack is enabled
+2022-11-09 22:11:09,271 Target advertised gamma = 2.200000
+2022-11-09 22:11:09,272 
+2022-11-09 22:11:09,272 Display adjustment menu:
+2022-11-09 22:11:09,272 Press 1 .. 7
+2022-11-09 22:11:09,272 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:11:09,272 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:11:09,273 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:11:09,273 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:11:09,273 5) Check all
+2022-11-09 22:11:09,273 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:11:09,273 7) Continue on to calibration
+2022-11-09 22:11:09,273 8) Exit
+2022-11-09 22:11:09,276 DisplayCAL: Waiting for send buffer
+2022-11-09 22:11:10,500 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:11:10,551 Doing some initial measurements
+2022-11-09 22:11:20,959 Red   = XYZ 69.381 30.473  0.911
+2022-11-09 22:11:20,959 Green = XYZ 23.899 81.584  7.464
+2022-11-09 22:11:20,960 Blue  = XYZ 22.498  8.478 123.281
+2022-11-09 22:11:22,535 White = XYZ 115.655 120.619 131.661
+2022-11-09 22:11:22,536 
+2022-11-09 22:11:22,537 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:11:22,537    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:11:53,502 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:11:53,713 \ Current Br 119.98, x 0.3137-, y 0.3301-  DE  0.5  R-  G-  B++
+2022-11-09 22:11:53,713 
+2022-11-09 22:11:53,713 Press 1 .. 7
+2022-11-09 22:11:53,713 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:11:53,714 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:11:53,714 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:11:53,714 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:11:53,714 5) Check all
+2022-11-09 22:11:53,715 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:11:53,715 7) Continue on to calibration
+2022-11-09 22:11:53,715 8) Exit
+2022-11-09 22:11:53,717 DisplayCAL: Waiting for send buffer
+2022-11-09 22:11:57,134 DisplayCAL: Sending buffer: '4'
+2022-11-09 22:11:57,185 Doing some initial measurements
+2022-11-09 22:12:08,098 Black = XYZ 0.0986 0.1043 0.1769
+2022-11-09 22:12:08,098 Grey  = XYZ 25.053 26.370 28.675
+2022-11-09 22:12:08,098 White = XYZ 113.978 119.912 129.458
+2022-11-09 22:12:08,099 
+2022-11-09 22:12:08,100 Adjust R,G & B offsets to get target x,y. Press space when done.
+2022-11-09 22:12:08,100    Target Br 1.1991, x 0.3128 , y 0.3292
+2022-11-09 22:12:12,439 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:12:12,647 / Current Br 1.3157, x 0.3105+, y 0.3266+  DE  1.4  R+  G+  B--
+2022-11-09 22:12:12,647 
+2022-11-09 22:12:12,647 Press 1 .. 7
+2022-11-09 22:12:12,648 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:12:12,648 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:12:12,648 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:12:12,648 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:12:12,648 5) Check all
+2022-11-09 22:12:12,649 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:12:12,649 7) Continue on to calibration
+2022-11-09 22:12:12,649 8) Exit
+2022-11-09 22:12:12,651 DisplayCAL: Waiting for send buffer
+2022-11-09 22:12:57,077 DisplayCAL: Sending buffer: '4'
+2022-11-09 22:12:57,128 Doing some initial measurements
+2022-11-09 22:13:07,934 Black = XYZ 0.0987 0.1044 0.1772
+2022-11-09 22:13:07,934 Grey  = XYZ 25.095 26.442 28.706
+2022-11-09 22:13:07,935 White = XYZ 114.052 119.985 129.642
+2022-11-09 22:13:07,936 
+2022-11-09 22:13:07,936 Adjust R,G & B offsets to get target x,y. Press space when done.
+2022-11-09 22:13:07,936    Target Br 1.1999, x 0.3128 , y 0.3292
+2022-11-09 22:14:23,772 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:14:23,981 \ Current Br 1.1888, x 0.3115+, y 0.3281+  DE  0.7  R++ G+  B-
+2022-11-09 22:14:23,981 
+2022-11-09 22:14:23,981 Press 1 .. 7
+2022-11-09 22:14:23,981 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:14:23,982 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:14:23,982 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:14:23,982 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:14:23,982 5) Check all
+2022-11-09 22:14:23,983 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:14:23,983 7) Continue on to calibration
+2022-11-09 22:14:23,983 8) Exit
+2022-11-09 22:14:23,985 DisplayCAL: Waiting for send buffer
+2022-11-09 22:14:28,216 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:14:28,267 Doing some initial measurements
+2022-11-09 22:14:29,840 White = XYZ 104.952 110.613 117.841
+2022-11-09 22:14:29,841 
+2022-11-09 22:14:29,841 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:14:29,841    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:15:04,699 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:15:04,907 / Current Br 110.69, x 0.3148-, y 0.3319-  DE  1.4  R-  G-  B++
+2022-11-09 22:15:04,907 
+2022-11-09 22:15:04,907 Press 1 .. 7
+2022-11-09 22:15:04,908 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:15:04,908 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:15:04,908 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:15:04,908 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:15:04,908 5) Check all
+2022-11-09 22:15:04,908 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:15:04,910 7) Continue on to calibration
+2022-11-09 22:15:04,910 8) Exit
+2022-11-09 22:15:04,911 DisplayCAL: Waiting for send buffer
+2022-11-09 22:16:51,322 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:16:51,373 Doing some initial measurements
+2022-11-09 22:16:52,657 White = XYZ 104.987 110.686 117.841
+2022-11-09 22:16:52,659 
+2022-11-09 22:16:52,659 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:16:52,659    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:17:23,614 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:17:23,824 \ Current Br 110.78, x 0.3135-, y 0.3297-  DE  0.4  R-- G-  B+
+2022-11-09 22:17:23,825 
+2022-11-09 22:17:23,825 Press 1 .. 7
+2022-11-09 22:17:23,825 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:17:23,825 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:17:23,825 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:17:23,826 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:17:23,826 5) Check all
+2022-11-09 22:17:23,826 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:17:23,826 7) Continue on to calibration
+2022-11-09 22:17:23,826 8) Exit
+2022-11-09 22:17:23,828 DisplayCAL: Waiting for send buffer
+2022-11-09 22:17:25,705 DisplayCAL: Sending buffer: '4'
+2022-11-09 22:17:25,757 Doing some initial measurements
+2022-11-09 22:17:37,003 Black = XYZ 0.0898 0.0950 0.1614
+2022-11-09 22:17:37,003 Grey  = XYZ 23.191 24.457 26.620
+2022-11-09 22:17:37,003 White = XYZ 105.306 110.777 119.860
+2022-11-09 22:17:37,005 
+2022-11-09 22:17:37,005 Adjust R,G & B offsets to get target x,y. Press space when done.
+2022-11-09 22:17:37,005    Target Br 1.1078, x 0.3128 , y 0.3292
+2022-11-09 22:18:45,395 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:18:45,604 \ Current Br 1.1109, x 0.3114+, y 0.3277+  DE  0.8  R+  G+  B--
+2022-11-09 22:18:45,604 
+2022-11-09 22:18:45,605 Press 1 .. 7
+2022-11-09 22:18:45,605 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:18:45,605 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:18:45,605 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:18:45,605 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:18:45,606 5) Check all
+2022-11-09 22:18:45,606 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:18:45,606 7) Continue on to calibration
+2022-11-09 22:18:45,606 8) Exit
+2022-11-09 22:18:45,608 DisplayCAL: Waiting for send buffer
+2022-11-09 22:18:47,799 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:18:47,851 Doing some initial measurements
+2022-11-09 22:18:49,427 White = XYZ 98.390 103.755 110.642
+2022-11-09 22:18:49,429 
+2022-11-09 22:18:49,429 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:18:49,429    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:19:30,684 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:19:30,892 \ Current Br 103.88, x 0.3134-, y 0.3297-  DE  0.3  R-- G-  B+
+2022-11-09 22:19:30,892 
+2022-11-09 22:19:30,893 Press 1 .. 7
+2022-11-09 22:19:30,893 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:19:30,893 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:19:30,893 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:19:30,893 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:19:30,893 5) Check all
+2022-11-09 22:19:30,894 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:19:30,894 7) Continue on to calibration
+2022-11-09 22:19:30,894 8) Exit
+2022-11-09 22:19:30,896 DisplayCAL: Waiting for send buffer
+2022-11-09 22:19:32,375 DisplayCAL: Sending buffer: '4'
+2022-11-09 22:19:32,426 Doing some initial measurements
+2022-11-09 22:19:43,834 Black = XYZ 0.0829 0.0875 0.1488
+2022-11-09 22:19:43,834 Grey  = XYZ 21.735 22.904 24.979
+2022-11-09 22:19:43,834 White = XYZ 98.760 103.879 112.478
+2022-11-09 22:19:43,836 
+2022-11-09 22:19:43,836 Adjust R,G & B offsets to get target x,y. Press space when done.
+2022-11-09 22:19:43,836    Target Br 1.0388, x 0.3128 , y 0.3292
+2022-11-09 22:20:48,007 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:20:48,214 / Current Br 1.1146, x 0.3115+, y 0.3278+  DE  0.8  R+  G+  B--
+2022-11-09 22:20:48,214 
+2022-11-09 22:20:48,214 Press 1 .. 7
+2022-11-09 22:20:48,214 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:20:48,215 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:20:48,215 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:20:48,215 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:20:48,215 5) Check all
+2022-11-09 22:20:48,216 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:20:48,216 7) Continue on to calibration
+2022-11-09 22:20:48,216 8) Exit
+2022-11-09 22:20:48,217 DisplayCAL: Waiting for send buffer
+2022-11-09 22:20:56,632 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:20:56,684 Doing some initial measurements
+2022-11-09 22:20:58,259 White = XYZ 98.390 103.755 110.642
+2022-11-09 22:20:58,260 
+2022-11-09 22:20:58,260 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:20:58,260    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:22:45,286 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:22:45,496 / Current Br 115.53, x 0.3121+, y 0.3276+  DE  0.9  R+  G++ B-
+2022-11-09 22:22:45,496 
+2022-11-09 22:22:45,496 Press 1 .. 7
+2022-11-09 22:22:45,496 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:22:45,496 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:22:45,497 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:22:45,497 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:22:45,497 5) Check all
+2022-11-09 22:22:45,497 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:22:45,497 7) Continue on to calibration
+2022-11-09 22:22:45,498 8) Exit
+2022-11-09 22:22:45,499 DisplayCAL: Waiting for send buffer
+2022-11-09 22:22:46,111 DisplayCAL: Sending buffer: '2'
+2022-11-09 22:22:46,162 Doing some initial measurements
+2022-11-09 22:22:47,448 White = XYZ 109.958 115.497 127.046
+2022-11-09 22:22:47,450 
+2022-11-09 22:22:47,450 Adjust R,G & B gain to get target x,y. Press space when done.
+2022-11-09 22:22:47,450    Target Br 120.00, x 0.3128 , y 0.3292
+2022-11-09 22:23:31,277 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:23:31,480 \ Current Br 120.86, x 0.3134-, y 0.3298-  DE  0.3  R-  G-  B++
+2022-11-09 22:23:31,480 
+2022-11-09 22:23:31,481 Press 1 .. 7
+2022-11-09 22:23:31,481 1) Black level (CRT: Offset/Brightness)
+2022-11-09 22:23:31,481 2) White point (Color temperature, R,G,B, Gain/Contrast)
+2022-11-09 22:23:31,481 3) White level (CRT: Gain/Contrast, LCD: Brightness/Backlight)
+2022-11-09 22:23:31,481 4) Black point (R,G,B, Offset/Brightness)
+2022-11-09 22:23:31,482 5) Check all
+2022-11-09 22:23:31,482 6) Measure and set ambient for viewing condition adjustment
+2022-11-09 22:23:31,482 7) Continue on to calibration
+2022-11-09 22:23:31,482 8) Exit
+2022-11-09 22:23:31,484 DisplayCAL: Waiting for send buffer
+2022-11-09 22:23:32,963 DisplayCAL: Sending buffer: '7'
+2022-11-09 22:23:33,015 Commencing display calibration
+2022-11-09 22:24:12,903 Patch 9 of 9
+2022-11-09 22:24:12,903 Black = XYZ 0.1018 0.1077 0.1825
+2022-11-09 22:24:12,903 Red   = XYZ 68.367 30.030  0.907
+2022-11-09 22:24:12,903 Green = XYZ 24.079 82.241  7.505
+2022-11-09 22:24:12,903 Blue  = XYZ 22.306  8.415 122.180
+2022-11-09 22:24:12,904 White = XYZ 114.849 120.856 130.749
+2022-11-09 22:27:54,216 Patch 48 of 48
+2022-11-09 22:27:54,273 Target white value is XYZ 114.020608 120.000000 130.503190 [xy 0.312793 0.329197]
+2022-11-09 22:27:54,273 Adjusted target black XYZ 0.1018 0.1077 0.1825, Lab 0.810 -0.018 -0.781
+2022-11-09 22:27:54,273 Target black after min adjust: XYZ 0.1018 0.1077 0.1825, Lab 0.810 -0.018 -0.781
+2022-11-09 22:27:54,274 Gamma curve input offset = 0.000000, output offset = 0.000897, power = 2.204664
+2022-11-09 22:27:54,275 Total Iteration 2, Final Samples = 32 Final Repeat threshold = 0.900000
+2022-11-09 22:27:54,275 Creating initial calibration curves...
+2022-11-09 22:27:54,375 
+2022-11-09 22:27:54,375 Doing iteration 1/2 with 16 sample points and repeat threshold of 1.272792 DE
+2022-11-09 22:27:55,708 Patch 1 of 16 DE 0.109303, W.DE 0.109303, OK ( < 1.272792)
+2022-11-09 22:27:57,112 Patch 2 of 16 DE 1.876231, W.DE 1.876231, Repeat
+2022-11-09 22:27:58,550 Patch 2 of 16 DE 0.284371, W.DE 0.284371, OK ( < 1.272792)
+2022-11-09 22:27:59,957 Patch 3 of 16 DE 2.129002, W.DE 2.129002, Repeat
+2022-11-09 22:28:01,391 Patch 3 of 16 DE 0.184384, W.DE 0.184384, OK ( < 1.272792)
+2022-11-09 22:28:02,791 Patch 4 of 16 DE 2.647391, W.DE 2.647391, Repeat
+2022-11-09 22:28:04,207 Patch 4 of 16 DE 0.212517, W.DE 0.212517, OK ( < 1.272792)
+2022-11-09 22:28:05,605 Patch 5 of 16 DE 2.585031, W.DE 2.585031, Repeat
+2022-11-09 22:28:07,013 Patch 5 of 16 DE 0.308082, W.DE 0.308082, OK ( < 1.272792)
+2022-11-09 22:28:09,518 Patch 6 of 16 DE 1.597153, W.DE 1.597153, Repeat
+2022-11-09 22:28:12,021 Patch 6 of 16 DE 0.189537, W.DE 0.189537, OK ( < 1.272792)
+2022-11-09 22:28:14,566 Patch 7 of 16 DE 1.060971, W.DE 1.060971, OK ( < 1.272792)
+2022-11-09 22:28:17,179 Patch 8 of 16 DE 1.175881, W.DE 1.175881, OK ( < 1.272792)
+2022-11-09 22:28:19,886 Patch 9 of 16 DE 1.456053, W.DE 1.456053, Repeat
+2022-11-09 22:28:22,596 Patch 9 of 16 DE 0.267238, W.DE 0.267238, OK ( < 1.272792)
+2022-11-09 22:28:25,421 Patch 10 of 16 DE 0.873070, W.DE 0.873070, OK ( < 1.272792)
+2022-11-09 22:28:28,460 Patch 11 of 16 DE 1.442999, W.DE 1.442999, Repeat
+2022-11-09 22:28:31,468 Patch 11 of 16 DE 0.373438, W.DE 0.373438, OK ( < 1.272792)
+2022-11-09 22:28:36,005 Patch 12 of 16 DE 2.635401, W.DE 2.635401, Repeat
+2022-11-09 22:28:40,322 Patch 12 of 16 DE 0.259012, W.DE 0.259012, OK ( < 1.272792)
+2022-11-09 22:28:45,882 Patch 13 of 16 DE 1.937144, W.DE 1.937144, Repeat
+2022-11-09 22:28:51,005 Patch 13 of 16 DE 0.555213, W.DE 0.555213, OK ( < 1.272792)
+2022-11-09 22:28:57,479 Patch 14 of 16 DE 0.617939, W.DE 0.617939, OK ( < 1.272792)
+2022-11-09 22:29:04,098 Patch 15 of 16 DE 0.051289, W.DE 0.051289, OK ( < 1.272792)
+2022-11-09 22:29:10,675 Patch 16 of 16 DE 0.027594, W.DE 27.594473, Repeat
+2022-11-09 22:29:36,270 Patch 16 of 16 DE 0.025447, W.DE 25.446913, Repeat
+2022-11-09 22:29:42,826 Patch 16 of 16 DE 0.022371, W.DE 22.370749, Repeat
+2022-11-09 22:29:49,311 Patch 16 of 16 DE 0.020239, W.DE 20.238731, Repeat
+2022-11-09 22:29:55,810 Patch 16 of 16 DE 0.016201, W.DE 16.201061, Repeat
+2022-11-09 22:30:02,316 Patch 16 of 16 DE 0.014318, W.DE 14.317708, Repeat
+2022-11-09 22:30:08,827 Patch 16 of 16 DE 0.012820, W.DE 12.820200, Repeat
+2022-11-09 22:30:15,348 Patch 16 of 16 DE 0.011612, W.DE 11.611524, Repeat
+2022-11-09 22:30:21,872 Patch 16 of 16 DE 0.010265, W.DE 10.264660, Repeat
+2022-11-09 22:30:28,404 Patch 16 of 16 DE 0.009727, W.DE 9.727053, Fail ( > 1.272792)
+2022-11-09 22:30:28,404 
+2022-11-09 22:30:28,405 Brightness error = -0.182550 cd/m^2 (is 119.817450, should be 120.000000)
+2022-11-09 22:30:28,405 White point error = 0.092153 deltaE
+2022-11-09 22:30:28,405 Maximum neutral error (@ 0.365761) = 1.176148 deltaE
+2022-11-09 22:30:28,405 Average neutral error = 0.408387 deltaE
+2022-11-09 22:30:28,405 Failed to meet target 1.272792 delta E, got worst case 9.727053
+2022-11-09 22:30:28,406 Number of measurements taken = 37
+2022-11-09 22:30:28,406 Computing update to calibration curves...
+2022-11-09 22:30:28,414 
+2022-11-09 22:30:28,415 Doing iteration 2/2 with 32 sample points and repeat threshold of 0.900000 DE
+2022-11-09 22:30:29,986 Patch 1 of 32 DE 0.199157, W.DE 0.199157, W.peqDE 0.199157, OK ( < 0.900000)
+2022-11-09 22:30:31,369 Patch 2 of 32 DE 0.237185, W.DE 0.237185, W.peqDE 0.282516, OK ( < 0.900000)
+2022-11-09 22:30:32,752 Patch 3 of 32 DE 0.277727, W.DE 0.277727, W.peqDE 0.103011, OK ( < 0.900000)
+2022-11-09 22:30:34,136 Patch 4 of 32 DE 0.312431, W.DE 0.312431, W.peqDE 0.272677, OK ( < 0.900000)
+2022-11-09 22:30:35,519 Patch 5 of 32 DE 0.174451, W.DE 0.174451, W.peqDE 0.320320, OK ( < 0.900000)
+2022-11-09 22:30:36,901 Patch 6 of 32 DE 0.158563, W.DE 0.158563, W.peqDE 0.161513, OK ( < 0.900000)
+2022-11-09 22:30:38,283 Patch 7 of 32 DE 0.192336, W.DE 0.192336, W.peqDE 0.155133, OK ( < 0.900000)
+2022-11-09 22:30:39,667 Patch 8 of 32 DE 0.260900, W.DE 0.260900, W.peqDE 0.146768, OK ( < 0.900000)
+2022-11-09 22:30:41,050 Patch 9 of 32 DE 0.184808, W.DE 0.184808, W.peqDE 0.244813, OK ( < 0.900000)
+2022-11-09 22:30:42,434 Patch 10 of 32 DE 0.424030, W.DE 0.424030, W.peqDE 0.339518, OK ( < 0.900000)
+2022-11-09 22:30:44,908 Patch 11 of 32 DE 0.276626, W.DE 0.276626, W.peqDE 0.267364, OK ( < 0.900000)
+2022-11-09 22:30:47,405 Patch 12 of 32 DE 0.630597, W.DE 0.630597, W.peqDE 0.483790, OK ( < 0.900000)
+2022-11-09 22:30:49,928 Patch 13 of 32 DE 0.898520, W.DE 0.898520, W.peqDE 0.815086, OK ( < 0.900000)
+2022-11-09 22:30:52,475 Patch 14 of 32 DE 1.313882, W.DE 1.313882, peqDE 0.911370, Repeat
+2022-11-09 22:30:55,038 Patch 14 of 32 DE 0.285276, W.DE 0.285276, W.peqDE 0.717766, OK ( < 0.900000)
+2022-11-09 22:30:57,622 Patch 15 of 32 DE 1.214915, W.DE 1.214915, peqDE 1.260704, Repeat
+2022-11-09 22:31:00,216 Patch 15 of 32 DE 0.205695, W.DE 0.205695, W.peqDE 0.467265, OK ( < 0.900000)
+2022-11-09 22:31:02,832 Patch 16 of 32 DE 1.009595, W.DE 1.009595, peqDE 0.931595, Repeat
+2022-11-09 22:31:05,447 Patch 16 of 32 DE 0.141144, W.DE 0.141144, W.peqDE 0.158783, OK ( < 0.900000)
+2022-11-09 22:31:08,096 Patch 17 of 32 DE 0.806918, W.DE 0.806918, W.peqDE 0.749738, OK ( < 0.900000)
+2022-11-09 22:31:10,798 Patch 18 of 32 DE 0.597149, W.DE 0.597149, W.peqDE 0.707618, OK ( < 0.900000)
+2022-11-09 22:31:13,561 Patch 19 of 32 DE 0.870492, W.DE 0.870492, W.peqDE 0.792913, OK ( < 0.900000)
+2022-11-09 22:31:16,395 Patch 20 of 32 DE 0.757108, W.DE 0.757108, W.peqDE 0.573317, OK ( < 0.900000)
+2022-11-09 22:31:19,318 Patch 21 of 32 DE 0.715259, W.DE 0.715259, W.peqDE 0.607493, OK ( < 0.900000)
+2022-11-09 22:31:22,344 Patch 22 of 32 DE 0.698458, W.DE 0.698458, W.peqDE 0.342894, OK ( < 0.900000)
+2022-11-09 22:31:26,487 Patch 23 of 32 DE 0.904925, W.DE 0.904925, peqDE 0.414685, Repeat
+2022-11-09 22:31:30,590 Patch 23 of 32 DE 0.041959, W.DE 0.041959, W.peqDE 0.677835, OK ( < 0.900000)
+2022-11-09 22:31:34,956 Patch 24 of 32 DE 0.877711, W.DE 0.877711, W.peqDE 0.893565, OK ( < 0.900000)
+2022-11-09 22:31:39,677 Patch 25 of 32 DE 0.965395, W.DE 0.965395, peqDE 0.920615, Repeat
+2022-11-09 22:31:44,354 Patch 25 of 32 DE 0.116884, W.DE 0.116884, W.peqDE 0.522702, OK ( < 0.900000)
+2022-11-09 22:31:49,588 Patch 26 of 32 DE 0.942260, W.DE 0.942260, peqDE 0.967224, Repeat
+2022-11-09 22:31:54,655 Patch 26 of 32 DE 0.257252, W.DE 0.257252, W.peqDE 0.262237, OK ( < 0.653090)
+2022-11-09 22:32:00,455 Patch 27 of 32 DE 0.729541, W.DE 0.729541, peqDE 0.743233, Repeat
+2022-11-09 22:32:06,024 Patch 27 of 32 DE 0.369501, W.DE 0.369501, W.peqDE 0.379934, OK ( < 0.394668)
+2022-11-09 22:32:12,249 Patch 28 of 32 DE 0.415369, W.DE 0.415369, peqDE 0.418301, Repeat
+2022-11-09 22:32:18,326 Patch 28 of 32 DE 0.296019, W.DE 0.296019, peqDE 0.282094, Repeat
+2022-11-09 22:32:24,346 Patch 28 of 32 DE 0.146180, W.DE 0.146180, W.peqDE 0.163032, OK ( < 0.250000)
+2022-11-09 22:32:30,885 Patch 29 of 32 DE 0.177837, W.DE 0.177837, W.peqDE 0.176651, OK ( < 0.250000)
+2022-11-09 22:32:37,416 Patch 30 of 32 DE 0.047882, W.DE 0.047882, W.peqDE 0.034546, OK ( < 0.250000)
+2022-11-09 22:32:43,808 Patch 31 of 32 DE 0.021479, W.DE 0.021479, W.peqDE 0.009519, OK ( < 0.250000)
+2022-11-09 22:32:50,242 Patch 32 of 32 DE 0.007331, W.DE 0.007331, W.peqDE 0.007331, OK ( < 0.250000)
+2022-11-09 22:32:50,243 
+2022-11-09 22:32:50,243 Brightness error = -0.181268 cd/m^2 (is 119.818732, should be 120.000000)
+2022-11-09 22:32:50,243 White point error = 0.190486 deltaE
+2022-11-09 22:32:50,243 Maximum neutral error (@ 0.114489) = 0.900681 deltaE
+2022-11-09 22:32:50,244 Average neutral error = 0.362715 deltaE
+2022-11-09 22:32:50,245 Number of measurements taken = 41
+2022-11-09 22:32:50,246 Computing update to calibration curves...
+2022-11-09 22:32:50,254 The instrument can be removed from the screen.
+2022-11-09 22:32:50,795 Written calibration file 'DisplayPort-0 #1 2022QDMODIFIED.cal'
+2022-11-09 22:32:50,796 DisplayCAL: Reached EOF (OK)
+2022-11-09 22:32:50,898 argyll-dispcal exitcode: 0
+2022-11-09 22:32:50,939 --------------------------------------------------------------------------------
+2022-11-09 22:32:50,940 Working directory:
+2022-11-09 22:32:50,940   /
+2022-11-09 22:32:50,940    tmp/
+2022-11-09 22:32:50,940     DisplayCAL-6Ee0al/
+2022-11-09 22:32:50,940 
+2022-11-09 22:32:50,941 Command line:
+2022-11-09 22:32:50,941   /usr/bin/argyll-dispread
+2022-11-09 22:32:50,941     -v
+2022-11-09 22:32:50,941     -d1
+2022-11-09 22:32:50,941     -c1
+2022-11-09 22:32:50,942     -yr
+2022-11-09 22:32:50,942     -P0.510057471264,0.22520661157,1.24867724868
+2022-11-09 22:32:50,942     -X
+2022-11-09 22:32:50,942     'Microstep MAG274QRF-QD (ColorMunki).ccss'
+2022-11-09 22:32:50,942     -k
+2022-11-09 22:32:50,942     'DisplayPort-0 #1 2022QDMODIFIED.cal'
+2022-11-09 22:32:50,943     'DisplayPort-0 #1 2022QDMODIFIED'
+2022-11-09 22:32:50,943 
+2022-11-09 22:32:50,947 DisplayCAL: Starting interaction with subprocess
+2022-11-09 22:32:51,352 Number of patches = 175
+2022-11-09 22:32:51,353 Setting up the instrument
+2022-11-09 22:32:52,378 Product Name:      Colormunki Display
+2022-11-09 22:32:52,378 Serial Number:     C1-22.B-02.015586.02
+2022-11-09 22:32:52,378 Firmware Version:  v2.28
+2022-11-09 22:32:52,378 Firmware Date:     29Jan14
+2022-11-09 22:32:52,380 argyll-dispread: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-09 22:32:52,588 Place instrument on test window.
+2022-11-09 22:32:52,589 DisplayCAL: Detected instrument placement (screen/spot) message
+2022-11-09 22:32:52,589 DisplayCAL: Waiting for send buffer
+2022-11-09 22:32:54,090 DisplayCAL: Skipping place instrument on screen message...
+2022-11-09 22:32:54,119 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:32:54,170 Hit Esc or Q to give up, any other key to continue:
+2022-11-09 22:40:29,582 Patch 175 of 175
+2022-11-09 22:40:29,582 The instrument can be removed from the screen.
+2022-11-09 22:40:30,073 Written 'DisplayPort-0 #1 2022QDMODIFIED.ti3'
+2022-11-09 22:40:30,074 DisplayCAL: Reached EOF (OK)
+2022-11-09 22:40:30,176 argyll-dispread exitcode: 0
+2022-11-09 22:40:30,304 Preparing ChromaticityType tag from TI3 colorants
+2022-11-09 22:40:30,310 Storing settings in TI3
+2022-11-09 22:40:30,351 Extracting neutrals from /tmp/DisplayCAL-6Ee0al/DisplayPort-0 #1 2022QDMODIFIED.ti3
+2022-11-09 22:40:30,374 Applying 0% black point correction to TI3
+2022-11-09 22:40:30,465 Extracting neutrals from /tmp/DisplayCAL-6Ee0al/DisplayPort-0 #1 2022QDMODIFIED.ti3
+2022-11-09 22:40:30,492 R=G=B (>= 1% luminance) dE*00 avg 0.403654882954 peak 0.880849358773
+2022-11-09 22:40:30,493 Got high quality calibration, using single device to PCS shaper curve for cLUT
+2022-11-09 22:40:31,039 Black relative luminance = 0.000900
+2022-11-09 22:40:31,039 Black output offset = 1.00
+2022-11-09 22:40:31,039 Calibration gamma = 2.20 relative
+2022-11-09 22:40:31,039 Calibration overall transfer function ≈ Gamma 2.20 100% (Δ 0.00%)
+2022-11-09 22:40:31,040 Calibration effective gamma = 2.20
+2022-11-09 22:40:31,420 Transfer function R ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:31,421 Effective gamma = 2.21
+2022-11-09 22:40:31,421 Got good match (+-2%)
+2022-11-09 22:40:31,421 Using calibration transfer function
+2022-11-09 22:40:31,799 Transfer function G ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:31,799 Effective gamma = 2.21
+2022-11-09 22:40:31,800 Got good match (+-2%)
+2022-11-09 22:40:31,800 Using calibration transfer function
+2022-11-09 22:40:32,178 Transfer function B ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:32,179 Effective gamma = 2.21
+2022-11-09 22:40:32,179 Got good match (+-2%)
+2022-11-09 22:40:32,179 Using calibration transfer function
+2022-11-09 22:40:32,616 Using transfer function for R: Gamma 2.20 100%
+2022-11-09 22:40:32,616 Effective gamma = 2.20
+2022-11-09 22:40:33,054 Using transfer function for G: Gamma 2.20 100%
+2022-11-09 22:40:33,054 Effective gamma = 2.20
+2022-11-09 22:40:33,491 Using transfer function for B: Gamma 2.20 100%
+2022-11-09 22:40:33,491 Effective gamma = 2.20
+2022-11-09 22:40:33,504 Initial cLUT resolution 5x5x5
+2022-11-09 22:40:33,506 cLUT input curve segments: 5
+2022-11-09 22:40:33,537 #1 X prev 0.045375 next 0.209166 clip False
+2022-11-09 22:40:33,565 #2 X prev 0.209166 next 0.511348 clip False
+2022-11-09 22:40:33,598 #3 X prev 0.511348 next 0.964200 clip False
+2022-11-09 22:40:33,687 #1 Y prev 0.047060 next 0.216932 clip False
+2022-11-09 22:40:33,717 #2 Y prev 0.216932 next 0.530334 clip False
+2022-11-09 22:40:33,749 #3 Y prev 0.530334 next 1.000000 clip False
+2022-11-09 22:40:33,840 #1 Z prev 0.038819 next 0.178947 clip False
+2022-11-09 22:40:33,867 #2 Z prev 0.178947 next 0.437473 clip False
+2022-11-09 22:40:33,897 #3 Z prev 0.437473 next 0.824900 clip False
+2022-11-09 22:40:34,556 cLUT input curve segments: 33
+2022-11-09 22:40:34,561 #1 X prev 0.000463 next 0.002135 clip False
+2022-11-09 22:40:34,565 #2 X prev 0.002135 next 0.005220 clip False
+2022-11-09 22:40:34,569 #3 X prev 0.005220 next 0.009843 clip False
+2022-11-09 22:40:34,573 #4 X prev 0.009843 next 0.016099 clip False
+2022-11-09 22:40:34,577 #5 X prev 0.016099 next 0.024064 clip False
+2022-11-09 22:40:34,581 #6 X prev 0.024064 next 0.033803 clip False
+2022-11-09 22:40:34,585 #7 X prev 0.033803 next 0.045375 clip False
+2022-11-09 22:40:34,588 #8 X prev 0.045375 next 0.058829 clip False
+2022-11-09 22:40:34,592 #9 X prev 0.058829 next 0.074211 clip False
+2022-11-09 22:40:34,596 #10 X prev 0.074211 next 0.091565 clip False
+2022-11-09 22:40:34,601 #11 X prev 0.091565 next 0.110928 clip False
+2022-11-09 22:40:34,604 #12 X prev 0.110928 next 0.132337 clip False
+2022-11-09 22:40:34,608 #13 X prev 0.132337 next 0.155825 clip False
+2022-11-09 22:40:34,612 #14 X prev 0.155825 next 0.181425 clip False
+2022-11-09 22:40:34,616 #15 X prev 0.181425 next 0.209166 clip False
+2022-11-09 22:40:34,620 #16 X prev 0.209166 next 0.239077 clip False
+2022-11-09 22:40:34,625 #17 X prev 0.239077 next 0.271185 clip False
+2022-11-09 22:40:34,628 #18 X prev 0.271185 next 0.305516 clip False
+2022-11-09 22:40:34,634 #19 X prev 0.305516 next 0.342095 clip False
+2022-11-09 22:40:34,638 #20 X prev 0.342095 next 0.380945 clip False
+2022-11-09 22:40:34,643 #21 X prev 0.380945 next 0.422090 clip False
+2022-11-09 22:40:34,648 #22 X prev 0.422090 next 0.465550 clip False
+2022-11-09 22:40:34,652 #23 X prev 0.465550 next 0.511348 clip False
+2022-11-09 22:40:34,656 #24 X prev 0.511348 next 0.559504 clip False
+2022-11-09 22:40:34,659 #25 X prev 0.559504 next 0.610037 clip False
+2022-11-09 22:40:34,663 #26 X prev 0.610037 next 0.662967 clip False
+2022-11-09 22:40:34,667 #27 X prev 0.662967 next 0.718312 clip False
+2022-11-09 22:40:34,671 #28 X prev 0.718312 next 0.776091 clip False
+2022-11-09 22:40:34,675 #29 X prev 0.776091 next 0.836320 clip False
+2022-11-09 22:40:34,678 #30 X prev 0.836320 next 0.899018 clip False
+2022-11-09 22:40:34,683 #31 X prev 0.899018 next 0.964200 clip False
+2022-11-09 22:40:34,727 #1 Y prev 0.000480 next 0.002215 clip False
+2022-11-09 22:40:34,731 #2 Y prev 0.002215 next 0.005414 clip False
+2022-11-09 22:40:34,735 #3 Y prev 0.005414 next 0.010209 clip False
+2022-11-09 22:40:34,739 #4 Y prev 0.010209 next 0.016697 clip False
+2022-11-09 22:40:34,742 #5 Y prev 0.016697 next 0.024957 clip False
+2022-11-09 22:40:34,747 #6 Y prev 0.024957 next 0.035059 clip False
+2022-11-09 22:40:34,750 #7 Y prev 0.035059 next 0.047060 clip False
+2022-11-09 22:40:34,754 #8 Y prev 0.047060 next 0.061013 clip False
+2022-11-09 22:40:34,758 #9 Y prev 0.061013 next 0.076967 clip False
+2022-11-09 22:40:34,763 #10 Y prev 0.076967 next 0.094965 clip False
+2022-11-09 22:40:34,767 #11 Y prev 0.094965 next 0.115046 clip False
+2022-11-09 22:40:34,771 #12 Y prev 0.115046 next 0.137250 clip False
+2022-11-09 22:40:34,775 #13 Y prev 0.137250 next 0.161611 clip False
+2022-11-09 22:40:34,779 #14 Y prev 0.161611 next 0.188161 clip False
+2022-11-09 22:40:34,783 #15 Y prev 0.188161 next 0.216932 clip False
+2022-11-09 22:40:34,788 #16 Y prev 0.216932 next 0.247954 clip False
+2022-11-09 22:40:34,792 #17 Y prev 0.247954 next 0.281254 clip False
+2022-11-09 22:40:34,796 #18 Y prev 0.281254 next 0.316860 clip False
+2022-11-09 22:40:34,800 #19 Y prev 0.316860 next 0.354797 clip False
+2022-11-09 22:40:34,804 #20 Y prev 0.354797 next 0.395090 clip False
+2022-11-09 22:40:34,809 #21 Y prev 0.395090 next 0.437762 clip False
+2022-11-09 22:40:34,814 #22 Y prev 0.437762 next 0.482836 clip False
+2022-11-09 22:40:34,818 #23 Y prev 0.482836 next 0.530334 clip False
+2022-11-09 22:40:34,822 #24 Y prev 0.530334 next 0.580278 clip False
+2022-11-09 22:40:34,826 #25 Y prev 0.580278 next 0.632687 clip False
+2022-11-09 22:40:34,830 #26 Y prev 0.632687 next 0.687582 clip False
+2022-11-09 22:40:34,835 #27 Y prev 0.687582 next 0.744982 clip False
+2022-11-09 22:40:34,839 #28 Y prev 0.744982 next 0.804906 clip False
+2022-11-09 22:40:34,842 #29 Y prev 0.804906 next 0.867372 clip False
+2022-11-09 22:40:34,846 #30 Y prev 0.867372 next 0.932398 clip False
+2022-11-09 22:40:34,851 #31 Y prev 0.932398 next 1.000000 clip False
+2022-11-09 22:40:34,893 #1 Z prev 0.000396 next 0.001827 clip False
+2022-11-09 22:40:34,898 #2 Z prev 0.001827 next 0.004466 clip False
+2022-11-09 22:40:34,903 #3 Z prev 0.004466 next 0.008421 clip False
+2022-11-09 22:40:34,907 #4 Z prev 0.008421 next 0.013773 clip False
+2022-11-09 22:40:34,911 #5 Z prev 0.013773 next 0.020587 clip False
+2022-11-09 22:40:34,915 #6 Z prev 0.020587 next 0.028920 clip False
+2022-11-09 22:40:34,919 #7 Z prev 0.028920 next 0.038819 clip False
+2022-11-09 22:40:34,923 #8 Z prev 0.038819 next 0.050330 clip False
+2022-11-09 22:40:34,928 #9 Z prev 0.050330 next 0.063490 clip False
+2022-11-09 22:40:34,932 #10 Z prev 0.063490 next 0.078336 clip False
+2022-11-09 22:40:34,937 #11 Z prev 0.078336 next 0.094902 clip False
+2022-11-09 22:40:34,942 #12 Z prev 0.094902 next 0.113218 clip False
+2022-11-09 22:40:34,946 #13 Z prev 0.113218 next 0.133313 clip False
+2022-11-09 22:40:34,950 #14 Z prev 0.133313 next 0.155214 clip False
+2022-11-09 22:40:34,954 #15 Z prev 0.155214 next 0.178947 clip False
+2022-11-09 22:40:34,957 #16 Z prev 0.178947 next 0.204537 clip False
+2022-11-09 22:40:34,962 #17 Z prev 0.204537 next 0.232007 clip False
+2022-11-09 22:40:34,967 #18 Z prev 0.232007 next 0.261378 clip False
+2022-11-09 22:40:34,971 #19 Z prev 0.261378 next 0.292672 clip False
+2022-11-09 22:40:34,976 #20 Z prev 0.292672 next 0.325909 clip False
+2022-11-09 22:40:34,980 #21 Z prev 0.325909 next 0.361110 clip False
+2022-11-09 22:40:34,986 #22 Z prev 0.361110 next 0.398291 clip False
+2022-11-09 22:40:34,990 #23 Z prev 0.398291 next 0.437473 clip False
+2022-11-09 22:40:34,994 #24 Z prev 0.437473 next 0.478671 clip False
+2022-11-09 22:40:34,998 #25 Z prev 0.478671 next 0.521904 clip False
+2022-11-09 22:40:35,001 #26 Z prev 0.521904 next 0.567187 clip False
+2022-11-09 22:40:35,005 #27 Z prev 0.567187 next 0.614536 clip False
+2022-11-09 22:40:35,009 #28 Z prev 0.614536 next 0.663967 clip False
+2022-11-09 22:40:35,015 #29 Z prev 0.663967 next 0.715495 clip False
+2022-11-09 22:40:35,019 #30 Z prev 0.715495 next 0.769135 clip False
+2022-11-09 22:40:35,023 #31 Z prev 0.769135 next 0.824900 clip False
+2022-11-09 22:40:35,155 Final interpolated cLUT resolution 33x33x33
+2022-11-09 22:40:35,163 --------------------------------------------------------------------------------
+2022-11-09 22:40:35,164 Creating matrix from primaries
+2022-11-09 22:40:35,164 Using chromatic adaptation transform matrix: Bradford
+2022-11-09 22:40:35,248 Generating A2B1 by copying A2B0
+2022-11-09 22:40:35,268 Making distinct A2B0
+2022-11-09 22:40:35,295 Applying black point compensation to A2B0: L*a*b* 0.000000 0.000000 0.000000
+2022-11-09 22:40:36,957 --------------------------------------------------------------------------------
+2022-11-09 22:40:36,957 Generating B2A1 table by inverting A2B1 table
+2022-11-09 22:40:36,957 
+2022-11-09 22:40:36,957 Using chromatic adaptation transform matrix: Bradford
+2022-11-09 22:40:36,978 Black XYZ: 0.0009 0.0009 0.0007
+2022-11-09 22:40:36,978 White XYZ: 0.9642 1.0000 0.8249
+2022-11-09 22:40:36,979 R XYZ: 0.5960 0.2618 0.0041
+2022-11-09 22:40:36,979 G XYZ: 0.2227 0.6804 0.0552
+2022-11-09 22:40:36,979 B XYZ: 0.1454 0.0577 0.7654
+2022-11-09 22:40:36,980 Generating input curve PCS values...
+2022-11-09 22:40:37,147 Looking up input curve RGB values...
+2022-11-09 22:40:37,149 Setting up matrix
+2022-11-09 22:40:37,149 Increasing saturation of actual primaries for PCS candidate to 103%...
+2022-11-09 22:40:37,150 R xy 0.691485 0.303735 -> 0.701859 0.302091
+2022-11-09 22:40:37,150 G xy 0.232381 0.710009 -> 0.228981 0.720553
+2022-11-09 22:40:37,150 B xy 0.150167 0.059550 -> 0.144301 0.050580
+2022-11-09 22:40:37,150 Checking for suitable PCS candidate...
+2022-11-09 22:40:37,151 PCS candidate based on actual primaries fit: 1.01 (area: 94.26%)
+2022-11-09 22:40:37,151 Using primaries: PCS candidate based on actual primaries
+2022-11-09 22:40:37,152 Using R XYZ: 0.6049 0.2604 -0.0034
+2022-11-09 22:40:37,152 Using G XYZ: 0.2195 0.6906 0.0484
+2022-11-09 22:40:37,152 Using B XYZ: 0.1398 0.0490 0.7799
+2022-11-09 22:40:37,153 R+G+B XYZ: 0.9642 1.0000 0.8249
+2022-11-09 22:40:37,153 Correction factors: 1.0000 1.0000 1.0000
+2022-11-09 22:40:37,153 Matrix 1:
+2022-11-09 22:40:37,154 [1.9023705563760913, -0.5832322669394957, -0.304319824849474]
+2022-11-09 22:40:37,154 [-0.7209853590607275, 1.6754037377979616, 0.023966960126550804]
+2022-11-09 22:40:37,154 [0.05301681839277795, -0.1064490889448304, 1.2793432811862213]
+2022-11-09 22:40:37,155 Matrix 2:
+2022-11-09 22:40:37,155 [1.9023544255126432, -0.5832273215096871, -0.30431724441553976]
+2022-11-09 22:40:37,155 [-0.720987026524959, 1.6754076126003707, 0.02396701555631544]
+2022-11-09 22:40:37,156 [0.05301747907732058, -0.1064504154911939, 1.279359224095589]
+2022-11-09 22:40:37,156 Matrix 3:
+2022-11-09 22:40:37,156 [1.999969482421875, 0, 0]
+2022-11-09 22:40:37,156 [0, 1.999969482421875, 0]
+2022-11-09 22:40:37,157 [0, 0, 1.999969482421875]
+2022-11-09 22:40:37,157 Final matrix:
+2022-11-09 22:40:37,157 [3.8046507957754843, -1.1664368443340254, -0.6086252018057983]
+2022-11-09 22:40:37,157 [-1.4419520502720091, 3.350764095818033, 0.047933299697361216]
+2022-11-09 22:40:37,158 [0.10603334018958142, -0.2128975823735166, 2.558679405246107]
+2022-11-09 22:40:37,158 Applying matrix to input curve XYZ values...
+2022-11-09 22:40:37,170 Generating input curves...
+2022-11-09 22:40:41,102 100%
+2022-11-09 22:40:41,103 Generating A2B1 table lookup input values...
+2022-11-09 22:40:41,103 cLUT grid res: 33
+2022-11-09 22:40:41,103 Looking up input values through A2B1 table (9 workers)...
+2022-11-09 22:40:41,104 Using CAM Jab for clipping
+2022-11-09 22:40:52,863 100%
+2022-11-09 22:40:52,863 Input black XYZ: 0.000854 0.000885 0.000732
+2022-11-09 22:40:52,863 Input white XYZ: 0.964203 1.000000 0.824890
+2022-11-09 22:40:52,900 Output black RGB: 0.0000 0.0000 0.0000
+2022-11-09 22:40:52,900 Output white RGB: 100.0000 100.0000 100.0000
+2022-11-09 22:40:52,951 Filling cLUT...
+2022-11-09 22:40:53,030 100%
+2022-11-09 22:40:53,143 Generating output curves...
+2022-11-09 22:40:53,334 Setting curve entry #0 (0.000000 0.000000 0.000000) to black because it got clipped
+2022-11-09 22:40:53,334 Setting curve entry #1 (0.000000 0.000000 0.000000) to black because it got clipped
+2022-11-09 22:40:53,335 Setting curve entry #4095 (1.000000 1.000000 1.000000) to white because it got clipped
+2022-11-09 22:40:53,383 Smoothing B2A1...
+2022-11-09 22:40:55,172 Generating B2A0 table by inverting A2B0 table
+2022-11-09 22:40:55,172 
+2022-11-09 22:40:55,172 Using chromatic adaptation transform matrix: Bradford
+2022-11-09 22:40:55,193 Black XYZ: 0.0000 0.0000 0.0000
+2022-11-09 22:40:55,194 White XYZ: 0.9642 1.0000 0.8249
+2022-11-09 22:40:55,194 R XYZ: 0.5950 0.2613 0.0041
+2022-11-09 22:40:55,194 G XYZ: 0.2223 0.6792 0.0551
+2022-11-09 22:40:55,194 B XYZ: 0.1452 0.0576 0.7641
+2022-11-09 22:40:55,195 Generating input curve PCS values...
+2022-11-09 22:40:55,265 Looking up input curve RGB values...
+2022-11-09 22:40:55,288 R+G+B XYZ: 0.9659 1.0018 0.8264
+2022-11-09 22:40:55,288 Correction factors: 0.9982 0.9982 0.9982
+2022-11-09 22:40:55,288 Matrix 1:
+2022-11-09 22:40:55,289 [1.9029480408266637, -0.5846155515129916, -0.3054701593441978]
+2022-11-09 22:40:55,289 [-0.7227171511625003, 1.6760200677264487, 0.023104892834586065]
+2022-11-09 22:40:55,289 [0.05197296293765889, -0.10741631940208793, 1.2796091201801023]
+2022-11-09 22:40:55,290 Matrix 2:
+2022-11-09 22:40:55,290 [1.9063162969178884, -0.5856503327314808, -0.30601084763564035]
+2022-11-09 22:40:55,290 [-0.7239963749744014, 1.6789866567667269, 0.023145788957001142]
+2022-11-09 22:40:55,290 [0.05206495612151782, -0.10760644843575605, 1.2818740539150038]
+2022-11-09 22:40:55,291 Matrix 3:
+2022-11-09 22:40:55,291 [1.999969482421875, 0, 0]
+2022-11-09 22:40:55,291 [0, 1.999969482421875, 0]
+2022-11-09 22:40:55,291 [0, 0, 1.999969482421875]
+2022-11-09 22:40:55,292 Final matrix:
+2022-11-09 22:40:55,292 [3.8125744176792544, -1.1712827928331786, -0.6120123565613309]
+2022-11-09 22:40:55,292 [-1.4479706553328673, 3.357922074926985, 0.046290871560579525]
+2022-11-09 22:40:55,293 [0.10412832334666962, -0.2152096129833152, 2.563708988138421]
+2022-11-09 22:40:55,293 Applying matrix to input curve XYZ values...
+2022-11-09 22:40:55,305 Generating input curves...
+2022-11-09 22:40:59,217 100%
+2022-11-09 22:40:59,221 --------------------------------------------------------------------------------
+2022-11-09 22:40:59,221 Creating shaper tags in separate step
+2022-11-09 22:40:59,221 Using chromatic adaptation transform matrix: Bradford
+2022-11-09 22:40:59,241 Extracting neutrals from /tmp/DisplayCAL-6Ee0al/DisplayPort-0 #1 2022QDMODIFIED.ti3
+2022-11-09 22:40:59,255 NUMBER_OF_FIELDS 7
+2022-11-09 22:40:59,255 BEGIN_DATA_FORMAT
+2022-11-09 22:40:59,256 SAMPLE_ID RGB_R RGB_G RGB_B XYZ_X XYZ_Y XYZ_Z
+2022-11-09 22:40:59,256 END_DATA_FORMAT
+2022-11-09 22:40:59,256 
+2022-11-09 22:40:59,256 NUMBER_OF_SETS 52
+2022-11-09 22:40:59,256 BEGIN_DATA
+2022-11-09 22:40:59,256 1 0.0000000 0.0000000 0.0000000 0.0855536 0.0899986 0.0983163
+2022-11-09 22:40:59,256 2 1.9608000 1.9608000 1.9608000 0.0961190 0.1011428 0.1105552
+2022-11-09 22:40:59,256 3 3.9216000 3.9216000 3.9216000 0.1412317 0.1495018 0.1707762
+2022-11-09 22:40:59,256 4 5.8824000 5.8824000 5.8824000 0.2388012 0.2523237 0.2995181
+2022-11-09 22:40:59,256 5 7.8431000 7.8431000 7.8431000 0.3985362 0.4229027 0.4860063
+2022-11-09 22:40:59,256 6 9.8039000 9.8039000 9.8039000 0.6192043 0.6533696 0.7410991
+2022-11-09 22:40:59,256 7 11.765000 11.765000 11.765000 0.8952536 0.9459985 1.0483164
+2022-11-09 22:40:59,256 8 13.726000 13.726000 13.726000 1.2308233 1.3068784 1.4240739
+2022-11-09 22:40:59,256 9 15.686000 15.686000 15.686000 1.6243692 1.7183983 1.8938192
+2022-11-09 22:40:59,256 10 17.647000 17.647000 17.647000 2.0794476 2.2073882 2.4063107
+2022-11-09 22:40:59,256 11 19.608000 19.608000 19.608000 2.5917969 2.7527780 2.9979560
+2022-11-09 22:40:59,256 12 21.569000 21.569000 21.569000 3.1644266 3.3511479 3.6503384
+2022-11-09 22:40:59,256 13 23.529000 23.529000 23.529000 3.8064263 4.0335777 4.3621663
+2022-11-09 22:40:59,256 14 25.490000 25.490000 25.490000 4.5559961 4.8121974 5.2265087
+2022-11-09 22:40:59,256 15 27.451000 27.451000 27.451000 5.3673858 5.6815272 6.1446593
+2022-11-09 22:40:59,256 16 29.412000 29.412000 29.412000 6.2648256 6.6327269 7.1838393
+2022-11-09 22:40:59,256 17 31.373000 31.373000 31.373000 7.2422553 7.6605066 8.3196590
+2022-11-09 22:40:59,256 18 33.333000 33.333000 33.333000 8.3708550 8.8252363 9.5654487
+2022-11-09 22:40:59,256 19 35.294000 35.294000 35.294000 9.6048246 10.108326 10.992128
+2022-11-09 22:40:59,256 20 37.255000 37.255000 37.255000 10.835624 11.408926 12.400928
+2022-11-09 22:40:59,256 21 39.216000 39.216000 39.216000 12.103324 12.763325 13.844227
+2022-11-09 22:40:59,256 22 41.176000 41.176000 41.176000 13.448823 14.155125 15.361827
+2022-11-09 22:40:59,256 23 43.137000 43.137000 43.137000 14.829323 15.602924 16.877627
+2022-11-09 22:40:59,257 24 45.098000 45.098000 45.098000 16.297523 17.172424 18.531826
+2022-11-09 22:40:59,257 25 47.059000 47.059000 47.059000 17.852422 18.770423 20.243626
+2022-11-09 22:40:59,257 26 49.020000 49.020000 49.020000 19.499222 20.583723 22.190125
+2022-11-09 22:40:59,257 27 50.980000 50.980000 50.980000 21.408921 22.575822 24.398724
+2022-11-09 22:40:59,257 28 52.941000 52.941000 52.941000 23.322721 24.568022 26.627024
+2022-11-09 22:40:59,257 29 54.902000 54.902000 54.902000 25.304120 26.681321 28.898823
+2022-11-09 22:40:59,257 30 56.863000 56.863000 56.863000 27.313420 28.888920 31.378922
+2022-11-09 22:40:59,257 31 58.824000 58.824000 58.824000 29.468919 31.152520 33.845922
+2022-11-09 22:40:59,257 32 60.784000 60.784000 60.784000 31.699018 33.444119 36.312921
+2022-11-09 22:40:59,257 33 62.745000 62.745000 62.745000 34.081818 35.919218 39.087820
+2022-11-09 22:40:59,257 34 64.706000 64.706000 64.706000 36.386817 38.425618 41.709919
+2022-11-09 22:40:59,257 35 66.667000 66.667000 66.667000 38.828016 41.021517 44.485719
+2022-11-09 22:40:59,257 36 68.627000 68.627000 68.627000 41.438115 43.708016 47.568518
+2022-11-09 22:40:59,257 37 70.588000 70.588000 70.588000 44.164615 46.449515 50.497917
+2022-11-09 22:40:59,257 38 72.549000 72.549000 72.549000 46.787814 49.289315 53.582016
+2022-11-09 22:40:59,257 39 74.510000 74.510000 74.510000 49.592613 52.186214 56.819415
+2022-11-09 22:40:59,257 40 76.471000 76.471000 76.471000 52.455812 55.203913 60.057714
+2022-11-09 22:40:59,257 41 78.431000 78.431000 78.431000 55.397311 58.377112 63.603913
+2022-11-09 22:40:59,257 42 80.392000 80.392000 80.392000 58.591510 61.694811 67.150512
+2022-11-09 22:40:59,257 43 82.353000 82.353000 82.353000 61.773010 65.046010 70.850811
+2022-11-09 22:40:59,257 44 84.314000 84.314000 84.314000 65.107209 68.580509 74.859110
+2022-11-09 22:40:59,257 45 86.275000 86.275000 86.275000 68.545108 72.203608 78.867809
+2022-11-09 22:40:59,257 46 88.235000 88.235000 88.235000 72.161307 75.943107 82.876808
+2022-11-09 22:40:59,257 47 90.196000 90.196000 90.196000 75.661006 79.627706 87.039206
+2022-11-09 22:40:59,257 48 92.157000 92.157000 92.157000 79.355405 83.522605 91.356205
+2022-11-09 22:40:59,257 49 94.118000 94.118000 94.118000 83.020603 87.357104 95.672704
+2022-11-09 22:40:59,257 50 96.078000 96.078000 96.078000 86.951702 91.489402 99.991003
+2022-11-09 22:40:59,257 51 98.039000 98.039000 98.039000 90.882801 95.621701 104.30900
+2022-11-09 22:40:59,257 52 100.00000 100.00000 100.00000 95.061000 100.00000 109.24200
+2022-11-09 22:40:59,257 END_DATA
+2022-11-09 22:40:59,258 --------------------------------------------------------------------------------
+2022-11-09 22:40:59,686 Black relative luminance = 0.000900
+2022-11-09 22:40:59,686 Black output offset = 1.00
+2022-11-09 22:40:59,686 Calibration gamma = 2.20 relative
+2022-11-09 22:40:59,686 Calibration overall transfer function ≈ Gamma 2.20 100% (Δ 0.00%)
+2022-11-09 22:40:59,687 Calibration effective gamma = 2.20
+2022-11-09 22:40:59,738 Transfer function R ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:59,738 Effective gamma = 2.21
+2022-11-09 22:40:59,738 Got good match (+-2%)
+2022-11-09 22:40:59,738 Using calibration transfer function
+2022-11-09 22:40:59,789 Transfer function G ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:59,789 Effective gamma = 2.21
+2022-11-09 22:40:59,789 Got good match (+-2%)
+2022-11-09 22:40:59,789 Using calibration transfer function
+2022-11-09 22:40:59,840 Transfer function B ≈ Gamma 2.21 100% (Δ 0.68%)
+2022-11-09 22:40:59,840 Effective gamma = 2.21
+2022-11-09 22:40:59,841 Got good match (+-2%)
+2022-11-09 22:40:59,841 Using calibration transfer function
+2022-11-09 22:40:59,841 Using transfer function for R: Gamma 2.20
+2022-11-09 22:40:59,842 Effective gamma = 2.20
+2022-11-09 22:40:59,842 Using transfer function for G: Gamma 2.20
+2022-11-09 22:40:59,842 Effective gamma = 2.20
+2022-11-09 22:40:59,842 Using transfer function for B: Gamma 2.20
+2022-11-09 22:40:59,842 Effective gamma = 2.20
+2022-11-09 22:40:59,843 Adding rTRC from interpolation to DisplayPort-0 #1 2022QDMODIFIED
+2022-11-09 22:40:59,843 Adding gTRC from interpolation to DisplayPort-0 #1 2022QDMODIFIED
+2022-11-09 22:40:59,843 Adding bTRC from interpolation to DisplayPort-0 #1 2022QDMODIFIED
+2022-11-09 22:41:00,208 --------------------------------------------------------------------------------
+2022-11-09 22:41:00,209 Working directory:
+2022-11-09 22:41:00,209   /
+2022-11-09 22:41:00,209    tmp/
+2022-11-09 22:41:00,210     DisplayCAL-6Ee0al/
+2022-11-09 22:41:00,210 
+2022-11-09 22:41:00,210 Command line:
+2022-11-09 22:41:00,210   /usr/bin/argyll-profcheck
+2022-11-09 22:41:00,211     'DisplayPort-0 #1 2022QDMODIFIED.ti3'
+2022-11-09 22:41:00,211     'DisplayPort-0 #1 2022QDMODIFIED.icc'
+2022-11-09 22:41:00,211 
+2022-11-09 22:41:00,218 Profile check complete, errors: max. = 1.027109, avg. = 0.143081, RMS = 0.281941
+2022-11-09 22:41:00,218 argyll-profcheck exitcode: 0
+2022-11-09 22:41:00,219 --------------------------------------------------------------------------------
+2022-11-09 22:41:00,219 Generating gamut views...
+2022-11-09 22:41:00,971 --------------------------------------------------------------------------------
+2022-11-09 22:41:00,971 Working directory:
+2022-11-09 22:41:00,971   /
+2022-11-09 22:41:00,971    tmp/
+2022-11-09 22:41:00,972     DisplayCAL-6Ee0al/
+2022-11-09 22:41:00,972 
+2022-11-09 22:41:00,972 Command line:
+2022-11-09 22:41:00,972   /usr/bin/argyll-iccgamut
+2022-11-09 22:41:00,972     -v
+2022-11-09 22:41:00,973     -w
+2022-11-09 22:41:00,973     -ir
+2022-11-09 22:41:00,973     -ff
+2022-11-09 22:41:00,973     -on
+2022-11-09 22:41:00,973     -d10.00
+2022-11-09 22:41:00,973     'DisplayPort-0 #1 2022QDMODIFIED.icc'
+2022-11-09 22:41:00,974 
+2022-11-09 22:41:01,461 Header:
+2022-11-09 22:41:01,461   size         = 941944 bytes
+2022-11-09 22:41:01,461   CMM          = 'argl'
+2022-11-09 22:41:01,461   Version      = 2.2.0
+2022-11-09 22:41:01,461   Device Class = Display
+2022-11-09 22:41:01,461   Color Space  = RGB
+2022-11-09 22:41:01,461   Conn. Space  = XYZ
+2022-11-09 22:41:01,461   Date, Time   = 9 Nov 2022, 22:40:30
+2022-11-09 22:41:01,461   Platform     = *nix
+2022-11-09 22:41:01,461   Flags        = Not Embedded Profile, Use anywhere
+2022-11-09 22:41:01,461   Dev. Mnfctr. = 0x0
+2022-11-09 22:41:01,461   Dev. Model   = 0x0
+2022-11-09 22:41:01,461   Dev. Attrbts = Reflective, Glossy, Positive, Color
+2022-11-09 22:41:01,461   Rndrng Intnt = Perceptual
+2022-11-09 22:41:01,461   Illuminant   = 0.96420288, 1.00000000, 0.82490540    [Lab 100.000000, 0.000000, 0.000000]
+2022-11-09 22:41:01,461   Creator      = 'DCAL'
+2022-11-09 22:41:01,461 
+2022-11-09 22:41:01,461 Total volume of gamut is 1401843.112437 cubic colorspace units
+2022-11-09 22:41:01,461 argyll-iccgamut exitcode: 0
+2022-11-09 22:41:02,361 --------------------------------------------------------------------------------
+2022-11-09 22:41:02,361 Command line:
+2022-11-09 22:41:02,362   /usr/bin/argyll-viewgam
+2022-11-09 22:41:02,362     -cw
+2022-11-09 22:41:02,362     -t0
+2022-11-09 22:41:02,362     -w
+2022-11-09 22:41:02,362     /usr/share/DisplayCAL/ref/sRGB.gam
+2022-11-09 22:41:02,363     -cn
+2022-11-09 22:41:02,363     -t.3
+2022-11-09 22:41:02,363     -s
+2022-11-09 22:41:02,363     'DisplayPort-0 #1 2022QDMODIFIED.gam'
+2022-11-09 22:41:02,363     -i
+2022-11-09 22:41:02,364     'DisplayPort-0 #1 2022QDMODIFIED vs sRGB.wrl'
+2022-11-09 22:41:02,364 
+2022-11-09 22:41:02,364 Intersecting volume = 833148.5 cubic units
+2022-11-09 22:41:02,364 '/usr/share/DisplayCAL/ref/sRGB.gam' volume = 833675.1 cubic units, intersect = 99.94%
+2022-11-09 22:41:02,364 'DisplayPort-0 #1 2022QDMODIFIED.gam' volume = 1401843.3 cubic units, intersect = 59.43%
+2022-11-09 22:41:02,722 --------------------------------------------------------------------------------
+2022-11-09 22:41:02,722 Command line:
+2022-11-09 22:41:02,722   /usr/bin/argyll-viewgam
+2022-11-09 22:41:02,723     -cw
+2022-11-09 22:41:02,723     -t0
+2022-11-09 22:41:02,723     -w
+2022-11-09 22:41:02,723     /usr/share/DisplayCAL/ref/ClayRGB1998.gam
+2022-11-09 22:41:02,723     -cn
+2022-11-09 22:41:02,724     -t.3
+2022-11-09 22:41:02,724     -s
+2022-11-09 22:41:02,724     'DisplayPort-0 #1 2022QDMODIFIED.gam'
+2022-11-09 22:41:02,724     -i
+2022-11-09 22:41:02,724     'DisplayPort-0 #1 2022QDMODIFIED vs ClayRGB1998.wrl'
+2022-11-09 22:41:02,725 
+2022-11-09 22:41:02,725 Intersecting volume = 1206272.6 cubic units
+2022-11-09 22:41:02,725 '/usr/share/DisplayCAL/ref/ClayRGB1998.gam' volume = 1209985.9 cubic units, intersect = 99.69%
+2022-11-09 22:41:02,725 'DisplayPort-0 #1 2022QDMODIFIED.gam' volume = 1401843.3 cubic units, intersect = 86.05%
+2022-11-09 22:41:02,725 --------------------------------------------------------------------------------
+2022-11-09 22:41:02,726 Command line:
+2022-11-09 22:41:02,726   /usr/bin/argyll-viewgam
+2022-11-09 22:41:02,726     -cw
+2022-11-09 22:41:02,726     -t0
+2022-11-09 22:41:02,726     -w
+2022-11-09 22:41:02,727     /usr/share/DisplayCAL/ref/SMPTE431_P3.gam
+2022-11-09 22:41:02,727     -cn
+2022-11-09 22:41:02,727     -t.3
+2022-11-09 22:41:02,727     -s
+2022-11-09 22:41:02,727     'DisplayPort-0 #1 2022QDMODIFIED.gam'
+2022-11-09 22:41:02,728     -i
+2022-11-09 22:41:02,728     'DisplayPort-0 #1 2022QDMODIFIED vs SMPTE431_P3.wrl'
+2022-11-09 22:41:02,728 
+2022-11-09 22:41:02,728 Intersecting volume = 1113773.2 cubic units
+2022-11-09 22:41:02,728 '/usr/share/DisplayCAL/ref/SMPTE431_P3.gam' volume = 1176953.5 cubic units, intersect = 94.63%
+2022-11-09 22:41:02,728 'DisplayPort-0 #1 2022QDMODIFIED.gam' volume = 1401843.3 cubic units, intersect = 79.45%
+2022-11-09 22:41:02,870 --------------------------------------------------------------------------------

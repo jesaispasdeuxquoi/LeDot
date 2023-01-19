@@ -1,0 +1,41 @@
+2022-11-09 22:10:48,691 --------------------------------------------------------------------------------
+2022-11-09 22:10:48,692 Working directory:
+2022-11-09 22:10:48,692   /
+2022-11-09 22:10:48,692    tmp/
+2022-11-09 22:10:48,692     DisplayCAL-6Ee0al/
+2022-11-09 22:10:48,692 
+2022-11-09 22:10:48,693 Command line:
+2022-11-09 22:10:48,693   /usr/bin/argyll-dispread
+2022-11-09 22:10:48,693     -v
+2022-11-09 22:10:48,693     -k
+2022-11-09 22:10:48,693     /usr/share/DisplayCAL/linear.cal
+2022-11-09 22:10:48,693     -d1
+2022-11-09 22:10:48,693     -c1
+2022-11-09 22:10:48,694     -yr
+2022-11-09 22:10:48,694     -P0.510057471264,0.22520661157,1.24867724868
+2022-11-09 22:10:48,694     -X
+2022-11-09 22:10:48,694     'Microstep MAG274QRF-QD (ColorMunki).ccss'
+2022-11-09 22:10:48,694     0_16
+2022-11-09 22:10:48,695 
+2022-11-09 22:10:48,700 DisplayCAL: Starting interaction with subprocess
+2022-11-09 22:10:49,106 Number of patches = 3
+2022-11-09 22:10:49,110 Setting up the instrument
+2022-11-09 22:10:50,130 Product Name:      Colormunki Display
+2022-11-09 22:10:50,130 Serial Number:     C1-22.B-02.015586.02
+2022-11-09 22:10:50,130 Firmware Version:  v2.28
+2022-11-09 22:10:50,131 Firmware Date:     29Jan14
+2022-11-09 22:10:50,132 argyll-dispread: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-09 22:10:50,340 Place instrument on test window.
+2022-11-09 22:10:50,341 DisplayCAL: Detected instrument placement (screen/spot) message
+2022-11-09 22:10:50,341 DisplayCAL: Waiting for send buffer
+2022-11-09 22:10:51,843 DisplayCAL: Skipping place instrument on screen message...
+2022-11-09 22:10:51,871 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:10:51,922 Hit Esc or Q to give up, any other key to continue:
+2022-11-09 22:11:05,366 Patch 3 of 3
+2022-11-09 22:11:05,366 The instrument can be removed from the screen.
+2022-11-09 22:11:05,910 Written '0_16.ti3'
+2022-11-09 22:11:05,911 DisplayCAL: Reached EOF (OK)
+2022-11-09 22:11:06,012 argyll-dispread exitcode: 0
+2022-11-09 22:11:06,022 RGB level 0 is 0.104112 cd/m2
+2022-11-09 22:11:06,022 RGB level 16 is 0.373192 cd/m2
+2022-11-09 22:11:06,022 Assuming full range output levels

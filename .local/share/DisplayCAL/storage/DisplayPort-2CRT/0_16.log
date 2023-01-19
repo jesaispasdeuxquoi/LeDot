@@ -1,0 +1,39 @@
+2022-11-11 16:39:52,755 --------------------------------------------------------------------------------
+2022-11-11 16:39:52,755 Working directory:
+2022-11-11 16:39:52,755   /
+2022-11-11 16:39:52,755    tmp/
+2022-11-11 16:39:52,756     DisplayCAL-ro0zTV/
+2022-11-11 16:39:52,756 
+2022-11-11 16:39:52,756 Command line:
+2022-11-11 16:39:52,756   /usr/bin/argyll-dispread
+2022-11-11 16:39:52,756     -v
+2022-11-11 16:39:52,756     -k
+2022-11-11 16:39:52,757     /usr/share/DisplayCAL/linear.cal
+2022-11-11 16:39:52,757     -d3
+2022-11-11 16:39:52,757     -c1
+2022-11-11 16:39:52,757     -yn
+2022-11-11 16:39:52,757     -P0.889184397163,0.296703296703,1.24867724868
+2022-11-11 16:39:52,758     0_16
+2022-11-11 16:39:52,758 
+2022-11-11 16:39:52,764 DisplayCAL: Starting interaction with subprocess
+2022-11-11 16:39:53,175 Number of patches = 3
+2022-11-11 16:39:53,182 Setting up the instrument
+2022-11-11 16:39:54,228 Product Name:      Colormunki Display
+2022-11-11 16:39:54,229 Serial Number:     C1-22.B-02.015586.02
+2022-11-11 16:39:54,229 Firmware Version:  v2.28
+2022-11-11 16:39:54,229 Firmware Date:     29Jan14
+2022-11-11 16:39:54,231 argyll-dispread: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-11 16:39:54,440 Place instrument on test window.
+2022-11-11 16:39:54,441 DisplayCAL: Detected instrument placement (screen/spot) message
+2022-11-11 16:39:54,441 DisplayCAL: Waiting for send buffer
+2022-11-11 16:39:55,942 DisplayCAL: Skipping place instrument on screen message...
+2022-11-11 16:39:55,971 DisplayCAL: Sending buffer: ' '
+2022-11-11 16:39:56,023 Hit Esc or Q to give up, any other key to continue:
+2022-11-11 16:40:23,825 Patch 3 of 3
+2022-11-11 16:40:23,825 The instrument can be removed from the screen.
+2022-11-11 16:40:24,154 Written '0_16.ti3'
+2022-11-11 16:40:24,155 DisplayCAL: Reached EOF (OK)
+2022-11-11 16:40:24,255 argyll-dispread exitcode: 0
+2022-11-11 16:40:24,264 RGB level 0 is 0.011208 cd/m2
+2022-11-11 16:40:24,264 RGB level 16 is 0.042005 cd/m2
+2022-11-11 16:40:24,264 Assuming full range output levels

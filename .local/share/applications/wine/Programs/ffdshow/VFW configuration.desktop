@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=VFW configuration
+Exec=env WINEPREFIX="/home/leo/ssd/games/wine/tsuki" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\ffdshow\\\\VFW\\ configuration.lnk
+Type=Application
+StartupNotify=true
+Path=/home/leo/ssd/games/wine/tsuki/dosdevices/c:/windows/system32
+Icon=476C_ffdshow.5
+StartupWMClass=rundll32.exe

@@ -1,0 +1,17 @@
+2022-11-12 11:48:47,690 ================================================================================
+2022-11-12 11:48:47,690 displaycal 3.8.9.3 2019-12-14T12:16:22.165507Z
+2022-11-12 11:48:47,692 gentoo 2.9  x86_64
+2022-11-12 11:48:47,692 Python 2.7.18 (default, Nov  8 2022, 22:42:23) 
+2022-11-12 11:48:47,692 [GCC 12.2.1 20221008]
+2022-11-12 11:48:47,692 Faulthandler 3.2
+2022-11-12 11:48:47,726 /usr/lib64/python2.7/site-packages/wx-3.0-gtk2/wx/_core.py:16629: UserWarning: wxPython/wxWidgets release number mismatch
+2022-11-12 11:48:47,770 wxPython 3.0.2.0 gtk2 (classic)
+2022-11-12 11:48:47,770 Encoding: UTF-8
+2022-11-12 11:48:47,770 File system encoding: UTF-8
+2022-11-12 11:48:47,770 Loading /home/leo/.config/DisplayCAL/DisplayCAL.ini
+2022-11-12 11:48:47,771 Lockfile /home/leo/.config/DisplayCAL/DisplayCAL.lock
+2022-11-12 11:48:47,931 Starting up...
+2022-11-12 11:48:48,010 SDL2: libSDL2-2.0.so.0
+2022-11-12 11:48:48,010 Audio module: wx 3.0.2.0
+2022-11-12 11:48:49,102 Enumerating display devices and communication ports...
+2022-11-12 11:48:49,102 /usr/bin

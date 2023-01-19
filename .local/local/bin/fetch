@@ -1,0 +1,93 @@
+#!/bin/sh
+#
+#    fetch
+#
+
+clear
+
+# supress errors
+exec 2>/dev/null
+set --
+eq() {  # equals  |  [ a = b ] with globbing
+	case $1 in
+		$2) ;;
+		*) return 1;;
+	esac
+}
+
+## DE
+wm=$XDG_CURRENT_DESKTOP
+[ "$wm" ] || wm=$DESKTOP_SESSION
+
+## Distro
+# freedesktop.org/software/systemd/man/os-release.html
+# a common file that has variables about the distro
+for os in /etc/os-release /usr/lib/os-release; do
+	# some POSIX shells exit when trying to source a file that doesn't exist
+	[ -f $os ] && . $os && break
+done
+
+if [ -e /proc/$$/comm ]; then
+	## Terminal
+	while [ ! "$term" ]; do
+		# loop over lines in /proc/pid/status until it reaches PPid
+		# then save that to a variable and exit the file
+		while read -r line; do
+			eq "$line" 'PPid*' && ppid=${line##*:?} && break
+		done < "/proc/${ppid:-$PPID}/status"
+
+		# Make sure not to do an infinite loop
+		[ "$pppid" = "$ppid" ] && break
+		pppid=$ppid
+
+		# get name of binary
+		read -r name < "/proc/$ppid/comm"
+
+		case $name in
+			*sh|"${0##*/}") ;;  # skip shells
+			*[Ll]ogin*|*init|*systemd*) break;;  # exit when the top is reached
+			# anything else can be assumed to be the terminal
+			# this has the side affect of catching tmux, but tmux
+			# detaches from the terminal and therefore ignoring that
+			# will just make the init the term
+			*) term=$name
+		esac
+	done
+
+	## WM/DE
+	[ "$wm" ] ||
+		# loop over all processes and check the binary name
+		for i in /proc/*/comm; do
+			read -r c < "$i"
+			case $c in
+				*bar*|*rc) ;;
+				awesome|xmonad*|qtile|sway|i3|[bfo]*box|*wm*) wm=${c%%-*}; break;;
+			esac
+
+		done
+
+	## Kernel
+	read -r _ _ version _ < /proc/version
+	kernel=${version%%-*}
+	eq "$version" '*Microsoft*' && ID="fake $ID"
+
+fi
+
+print() {
+	[ "$2" ] && printf '%0s\033[0m%s\n' \
+		 "${separator:-}" "$2"
+}
+
+# default value
+: "${info:=n user os kern sh wm up gtk cpu mem host pkgs term col space n}"
+
+for i in $info; do
+	case $i in
+		os) print os "$ID";;
+		kern) print kern "$kernel";;
+		sh) print sh "${SHELL##*/}";;
+		wm) print wm "${wm##*/}";;
+		term) print term "$term";;
+		space) printf "\n";;
+	esac
+done

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Uninstall ffdshow
+Exec=env WINEPREFIX="/home/leo/ssd/games/wine/tsuki" wine C:\\\\ProgramData\\\\Microsoft\\\\Windows\\\\Start\\ Menu\\\\Programs\\\\ffdshow\\\\Uninstall\\ ffdshow.lnk
+Type=Application
+StartupNotify=true
+Icon=C243_unins000.0
+StartupWMClass=unins000.exe

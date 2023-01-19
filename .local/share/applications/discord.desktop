@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=discord
+Exec=/home/leo/discord-linux-x64/discord
+Categories=Internet
+Keywords=internet
+StartupNotify=false

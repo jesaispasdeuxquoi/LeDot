@@ -1,0 +1,192 @@
+2022-11-12 12:50:29,042 ================================================================================
+2022-11-12 12:50:29,042 Buffer size: 2000
+2022-11-12 12:50:29,042 Timeout: 20s
+2022-11-12 12:50:29,042 Environment:
+2022-11-12 12:50:29,042 	ENABLE_COLORHUG=1
+2022-11-12 12:50:29,042 	LESS=-R -M --shift 5
+2022-11-12 12:50:29,043 	LESSOPEN=|lesspipe %s
+2022-11-12 12:50:29,043 	XDG_SESSION_TYPE=tty
+2022-11-12 12:50:29,043 	HUSHLOGIN=FALSE
+2022-11-12 12:50:29,043 	LOGNAME=leo
+2022-11-12 12:50:29,043 	XDG_SEAT=seat0
+2022-11-12 12:50:29,043 	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/15/bin:/usr/lib/llvm/14/bin:/home/leo/.local/bin
+2022-11-12 12:50:29,043 	XDG_VTNR=1
+2022-11-12 12:50:29,043 	HOME=/home/leo
+2022-11-12 12:50:29,043 	DISPLAY=:0
+2022-11-12 12:50:29,043 	LANG=en_US.utf8
+2022-11-12 12:50:29,043 	INFOPATH=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/info:/usr/share/info
+2022-11-12 12:50:29,043 	TERM=linux
+2022-11-12 12:50:29,043 	SHELL=/bin/bash
+2022-11-12 12:50:29,043 	XAUTHORITY=/home/leo/.Xauthority
+2022-11-12 12:50:29,043 	SHLVL=4
+2022-11-12 12:50:29,043 	CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/revdep-rebuild
+2022-11-12 12:50:29,043 	WINDOWPATH=1
+2022-11-12 12:50:29,043 	GSETTINGS_BACKEND=dconf
+2022-11-12 12:50:29,043 	EDITOR=nvim
+2022-11-12 12:50:29,043 	MANPATH=/etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/15/share/man:/usr/lib/llvm/14/share/man
+2022-11-12 12:50:29,043 	JAVA_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:50:29,043 	XDG_SESSION_CLASS=user
+2022-11-12 12:50:29,043 	MOZ_GMP_PATH=/usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+2022-11-12 12:50:29,043 	MOTD_SHOWN=pam
+2022-11-12 12:50:29,043 	XDG_RUNTIME_DIR=/run/user/1000
+2022-11-12 12:50:29,043 	GCC_SPECS=
+2022-11-12 12:50:29,043 	VISUAL=nvim
+2022-11-12 12:50:29,044 	MANPAGER=manpager
+2022-11-12 12:50:29,044 	XDG_SESSION_ID=c1
+2022-11-12 12:50:29,044 	_=/usr/bin/displaycal
+2022-11-12 12:50:29,044 	JDK_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:50:29,044 	XDG_CONFIG_DIRS=/etc/xdg
+2022-11-12 12:50:29,044 	JAVAC=/etc/java-config-2/current-system-vm/bin/javac
+2022-11-12 12:50:29,044 	CONFIG_PROTECT=/usr/share/gnupg/qualified.txt
+2022-11-12 12:50:29,044 	XDG_DATA_DIRS=/usr/local/share:/usr/share
+2022-11-12 12:50:29,044 	PWD=/home/leo
+2022-11-12 12:50:29,044 	MAIL=/var/mail/leo
+2022-11-12 12:50:29,044 	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.cfg=00;32:*.conf=00;32:*.diff=00;32:*.doc=00;32:*.ini=00;32:*.log=00;32:*.patch=00;32:*.pdf=00;32:*.ps=00;32:*.tex=00;32:*.txt=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+2022-11-12 12:50:29,044 	PAGER=/usr/bin/less
+2022-11-12 12:50:29,044 	USER=leo
+2022-11-12 12:50:29,044 Working directory: /tmp/DisplayCAL-sVC1F3
+2022-11-12 12:50:29,044 Spawning /usr/bin/argyll-dispread -v -k /usr/share/DisplayCAL/linear.cal -d3 -c1 -yn "-P0.850177304965,0.118131868132,1.24867724868" 0_16
+2022-11-12 12:52:59,396 ================================================================================
+2022-11-12 12:52:59,396 Buffer size: 2000
+2022-11-12 12:52:59,396 Timeout: 20s
+2022-11-12 12:52:59,397 Environment:
+2022-11-12 12:52:59,397 	ENABLE_COLORHUG=1
+2022-11-12 12:52:59,397 	LESS=-R -M --shift 5
+2022-11-12 12:52:59,397 	LESSOPEN=|lesspipe %s
+2022-11-12 12:52:59,397 	XDG_SESSION_TYPE=tty
+2022-11-12 12:52:59,397 	HUSHLOGIN=FALSE
+2022-11-12 12:52:59,397 	LOGNAME=leo
+2022-11-12 12:52:59,397 	XDG_SEAT=seat0
+2022-11-12 12:52:59,397 	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/15/bin:/usr/lib/llvm/14/bin:/home/leo/.local/bin
+2022-11-12 12:52:59,397 	XDG_VTNR=1
+2022-11-12 12:52:59,397 	HOME=/home/leo
+2022-11-12 12:52:59,397 	DISPLAY=:0
+2022-11-12 12:52:59,397 	LANG=en_US.utf8
+2022-11-12 12:52:59,397 	INFOPATH=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/info:/usr/share/info
+2022-11-12 12:52:59,397 	TERM=linux
+2022-11-12 12:52:59,397 	SHELL=/bin/bash
+2022-11-12 12:52:59,397 	XAUTHORITY=/home/leo/.Xauthority
+2022-11-12 12:52:59,397 	SHLVL=4
+2022-11-12 12:52:59,397 	CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/revdep-rebuild
+2022-11-12 12:52:59,397 	WINDOWPATH=1
+2022-11-12 12:52:59,397 	GSETTINGS_BACKEND=dconf
+2022-11-12 12:52:59,397 	EDITOR=nvim
+2022-11-12 12:52:59,398 	MANPATH=/etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/15/share/man:/usr/lib/llvm/14/share/man
+2022-11-12 12:52:59,398 	JAVA_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:52:59,398 	XDG_SESSION_CLASS=user
+2022-11-12 12:52:59,398 	MOZ_GMP_PATH=/usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+2022-11-12 12:52:59,398 	MOTD_SHOWN=pam
+2022-11-12 12:52:59,398 	XDG_RUNTIME_DIR=/run/user/1000
+2022-11-12 12:52:59,398 	GCC_SPECS=
+2022-11-12 12:52:59,398 	VISUAL=nvim
+2022-11-12 12:52:59,398 	MANPAGER=manpager
+2022-11-12 12:52:59,398 	XDG_SESSION_ID=c1
+2022-11-12 12:52:59,398 	_=/usr/bin/displaycal
+2022-11-12 12:52:59,398 	JDK_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:52:59,398 	XDG_CONFIG_DIRS=/etc/xdg
+2022-11-12 12:52:59,398 	JAVAC=/etc/java-config-2/current-system-vm/bin/javac
+2022-11-12 12:52:59,398 	CONFIG_PROTECT=/usr/share/gnupg/qualified.txt
+2022-11-12 12:52:59,398 	XDG_DATA_DIRS=/usr/local/share:/usr/share
+2022-11-12 12:52:59,398 	PWD=/home/leo
+2022-11-12 12:52:59,398 	MAIL=/var/mail/leo
+2022-11-12 12:52:59,398 	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.cfg=00;32:*.conf=00;32:*.diff=00;32:*.doc=00;32:*.ini=00;32:*.log=00;32:*.patch=00;32:*.pdf=00;32:*.ps=00;32:*.tex=00;32:*.txt=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+2022-11-12 12:52:59,398 	PAGER=/usr/bin/less
+2022-11-12 12:52:59,398 	USER=leo
+2022-11-12 12:52:59,398 Working directory: /tmp/DisplayCAL-nwqs2U
+2022-11-12 12:52:59,399 Spawning /usr/bin/argyll-dispread -v -k /usr/share/DisplayCAL/linear.cal -d3 -c1 -yn "-P0.850177304965,0.118131868132,1.24867724868" 0_16
+2022-11-12 12:53:18,844 ================================================================================
+2022-11-12 12:53:18,844 Buffer size: 2000
+2022-11-12 12:53:18,844 Timeout: 20s
+2022-11-12 12:53:18,844 Environment:
+2022-11-12 12:53:18,844 	ENABLE_COLORHUG=1
+2022-11-12 12:53:18,844 	LESS=-R -M --shift 5
+2022-11-12 12:53:18,844 	LESSOPEN=|lesspipe %s
+2022-11-12 12:53:18,844 	XDG_SESSION_TYPE=tty
+2022-11-12 12:53:18,844 	HUSHLOGIN=FALSE
+2022-11-12 12:53:18,844 	LOGNAME=leo
+2022-11-12 12:53:18,845 	XDG_SEAT=seat0
+2022-11-12 12:53:18,845 	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/15/bin:/usr/lib/llvm/14/bin:/home/leo/.local/bin
+2022-11-12 12:53:18,845 	XDG_VTNR=1
+2022-11-12 12:53:18,845 	HOME=/home/leo
+2022-11-12 12:53:18,845 	DISPLAY=:0
+2022-11-12 12:53:18,845 	LANG=en_US.utf8
+2022-11-12 12:53:18,845 	INFOPATH=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/info:/usr/share/info
+2022-11-12 12:53:18,845 	TERM=linux
+2022-11-12 12:53:18,845 	SHELL=/bin/bash
+2022-11-12 12:53:18,845 	XAUTHORITY=/home/leo/.Xauthority
+2022-11-12 12:53:18,845 	SHLVL=4
+2022-11-12 12:53:18,845 	CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/revdep-rebuild
+2022-11-12 12:53:18,845 	WINDOWPATH=1
+2022-11-12 12:53:18,845 	GSETTINGS_BACKEND=dconf
+2022-11-12 12:53:18,845 	EDITOR=nvim
+2022-11-12 12:53:18,845 	MANPATH=/etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/15/share/man:/usr/lib/llvm/14/share/man
+2022-11-12 12:53:18,845 	JAVA_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:53:18,845 	XDG_SESSION_CLASS=user
+2022-11-12 12:53:18,845 	MOZ_GMP_PATH=/usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+2022-11-12 12:53:18,845 	MOTD_SHOWN=pam
+2022-11-12 12:53:18,845 	XDG_RUNTIME_DIR=/run/user/1000
+2022-11-12 12:53:18,845 	GCC_SPECS=
+2022-11-12 12:53:18,845 	VISUAL=nvim
+2022-11-12 12:53:18,845 	MANPAGER=manpager
+2022-11-12 12:53:18,845 	XDG_SESSION_ID=c1
+2022-11-12 12:53:18,845 	_=/usr/bin/displaycal
+2022-11-12 12:53:18,846 	JDK_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 12:53:18,846 	XDG_CONFIG_DIRS=/etc/xdg
+2022-11-12 12:53:18,846 	JAVAC=/etc/java-config-2/current-system-vm/bin/javac
+2022-11-12 12:53:18,846 	CONFIG_PROTECT=/usr/share/gnupg/qualified.txt
+2022-11-12 12:53:18,846 	XDG_DATA_DIRS=/usr/local/share:/usr/share
+2022-11-12 12:53:18,846 	PWD=/home/leo
+2022-11-12 12:53:18,846 	MAIL=/var/mail/leo
+2022-11-12 12:53:18,846 	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.cfg=00;32:*.conf=00;32:*.diff=00;32:*.doc=00;32:*.ini=00;32:*.log=00;32:*.patch=00;32:*.pdf=00;32:*.ps=00;32:*.tex=00;32:*.txt=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+2022-11-12 12:53:18,846 	PAGER=/usr/bin/less
+2022-11-12 12:53:18,846 	USER=leo
+2022-11-12 12:53:18,846 Working directory: /tmp/DisplayCAL-nwqs2U
+2022-11-12 12:53:18,846 Spawning /usr/bin/argyll-dispcal -v2 -d3 -c1 -yn "-P0.850177304965,0.118131868132,1.24867724868" -ql -t6500 -b120.0 -gs -f1.0 -k0 -A4.0 -b DisplayPort-2CRTV2
+2022-11-12 13:06:35,744 ================================================================================
+2022-11-12 13:06:35,744 Buffer size: 2000
+2022-11-12 13:06:35,745 Timeout: 20s
+2022-11-12 13:06:35,745 Environment:
+2022-11-12 13:06:35,745 	ENABLE_COLORHUG=1
+2022-11-12 13:06:35,745 	LESS=-R -M --shift 5
+2022-11-12 13:06:35,745 	LESSOPEN=|lesspipe %s
+2022-11-12 13:06:35,745 	XDG_SESSION_TYPE=tty
+2022-11-12 13:06:35,745 	HUSHLOGIN=FALSE
+2022-11-12 13:06:35,745 	LOGNAME=leo
+2022-11-12 13:06:35,745 	XDG_SEAT=seat0
+2022-11-12 13:06:35,745 	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/bin:/usr/lib/llvm/15/bin:/usr/lib/llvm/14/bin:/home/leo/.local/bin
+2022-11-12 13:06:35,745 	XDG_VTNR=1
+2022-11-12 13:06:35,745 	HOME=/home/leo
+2022-11-12 13:06:35,745 	DISPLAY=:0
+2022-11-12 13:06:35,745 	LANG=en_US.utf8
+2022-11-12 13:06:35,745 	INFOPATH=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/info:/usr/share/info
+2022-11-12 13:06:35,745 	TERM=linux
+2022-11-12 13:06:35,745 	SHELL=/bin/bash
+2022-11-12 13:06:35,745 	XAUTHORITY=/home/leo/.Xauthority
+2022-11-12 13:06:35,745 	SHLVL=4
+2022-11-12 13:06:35,745 	CONFIG_PROTECT_MASK=/etc/sandbox.d /etc/fonts/fonts.conf /etc/gentoo-release /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/revdep-rebuild
+2022-11-12 13:06:35,745 	WINDOWPATH=1
+2022-11-12 13:06:35,746 	GSETTINGS_BACKEND=dconf
+2022-11-12 13:06:35,746 	EDITOR=nvim
+2022-11-12 13:06:35,746 	MANPATH=/etc/java-config-2/current-system-vm/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.39/man:/etc/java-config-2/current-system-vm/man/:/usr/local/share/man:/usr/share/man:/usr/lib/rust/man:/usr/lib/llvm/15/share/man:/usr/lib/llvm/14/share/man
+2022-11-12 13:06:35,746 	JAVA_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 13:06:35,746 	XDG_SESSION_CLASS=user
+2022-11-12 13:06:35,746 	MOZ_GMP_PATH=/usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed
+2022-11-12 13:06:35,746 	MOTD_SHOWN=pam
+2022-11-12 13:06:35,746 	XDG_RUNTIME_DIR=/run/user/1000
+2022-11-12 13:06:35,746 	GCC_SPECS=
+2022-11-12 13:06:35,746 	VISUAL=nvim
+2022-11-12 13:06:35,746 	MANPAGER=manpager
+2022-11-12 13:06:35,746 	XDG_SESSION_ID=c1
+2022-11-12 13:06:35,746 	_=/usr/bin/displaycal
+2022-11-12 13:06:35,746 	JDK_HOME=/etc/java-config-2/current-system-vm
+2022-11-12 13:06:35,746 	XDG_CONFIG_DIRS=/etc/xdg
+2022-11-12 13:06:35,746 	JAVAC=/etc/java-config-2/current-system-vm/bin/javac
+2022-11-12 13:06:35,746 	CONFIG_PROTECT=/usr/share/gnupg/qualified.txt
+2022-11-12 13:06:35,746 	XDG_DATA_DIRS=/usr/local/share:/usr/share
+2022-11-12 13:06:35,746 	PWD=/home/leo
+2022-11-12 13:06:35,746 	MAIL=/var/mail/leo
+2022-11-12 13:06:35,746 	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.cfg=00;32:*.conf=00;32:*.diff=00;32:*.doc=00;32:*.ini=00;32:*.log=00;32:*.patch=00;32:*.pdf=00;32:*.ps=00;32:*.tex=00;32:*.txt=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+2022-11-12 13:06:35,746 	PAGER=/usr/bin/less
+2022-11-12 13:06:35,746 	USER=leo
+2022-11-12 13:06:35,746 Working directory: /tmp/DisplayCAL-nwqs2U
+2022-11-12 13:06:35,747 Spawning /usr/bin/argyll-dispread -v -d3 -c1 -yn "-P0.850177304965,0.118131868132,1.24867724868" -k DisplayPort-2CRTV2.cal DisplayPort-2CRTV2

@@ -1,0 +1,49 @@
+2022-11-08 22:57:24,468 ================================================================================
+2022-11-08 22:57:24,468 displaycal 3.8.9.3 2019-12-14T12:16:22.165507Z
+2022-11-08 22:57:24,470 gentoo 2.9  x86_64
+2022-11-08 22:57:24,470 Python 2.7.18 (default, Nov  8 2022, 22:42:23) 
+2022-11-08 22:57:24,470 [GCC 12.2.1 20221008]
+2022-11-08 22:57:24,470 Faulthandler 3.2
+2022-11-08 22:57:24,490 /usr/lib64/python2.7/site-packages/wx-3.0-gtk2/wx/_core.py:16629: UserWarning: wxPython/wxWidgets release number mismatch
+2022-11-08 22:57:24,519 wxPython 3.0.2.0 gtk2 (classic)
+2022-11-08 22:57:24,519 Encoding: UTF-8
+2022-11-08 22:57:24,519 File system encoding: UTF-8
+2022-11-08 22:57:24,519 Lockfile /home/leo/.config/DisplayCAL/DisplayCAL.lock
+2022-11-08 22:57:24,629 Starting up...
+2022-11-08 22:57:24,698 SDL2: libSDL2-2.0.so.0
+2022-11-08 22:57:24,698 Audio module: wx 3.0.2.0
+2022-11-08 22:57:25,797 Enumerating display devices and communication ports...
+2022-11-08 22:57:25,797 /usr/bin
+2022-11-08 22:57:27,973 ArgyllCMS 2.3.1
+2022-11-08 22:57:27,974 Argyll has virtual display support
+2022-11-08 22:57:27,974 ...ok.
+2022-11-08 22:57:27,975 Checking video card gamma table access for display 1...
+2022-11-08 22:57:27,995 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,025 VideoLUT has 1024 entries, interpolating to 256
+2022-11-08 22:57:28,141 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,159 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,159 Verify: 'test.cal' IS loaded (discrepancy 0.0%)
+2022-11-08 22:57:28,189 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,189 ...ok.
+2022-11-08 22:57:28,189 Checking video card gamma table access for display 2...
+2022-11-08 22:57:28,219 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,249 VideoLUT has 1024 entries, interpolating to 256
+2022-11-08 22:57:28,402 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,436 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,436 Verify: 'test.cal' IS loaded (discrepancy 0.0%)
+2022-11-08 22:57:28,503 Dispwin: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-08 22:57:28,503 ...ok.
+2022-11-08 22:57:28,504 Initializing GUI...
+2022-11-08 22:57:28,591 
+2022-11-08 22:57:28,790 ...ok.
+2022-11-08 22:57:28,791 Ready.
+2022-11-08 22:57:28,894 Setting up scripting host at 127.0.0.1:15411
+2022-11-08 22:57:28,922 Check for application update...
+2022-11-08 22:57:29,099 DisplayCAL is up-to-date.
+2022-11-08 22:57:29,253 ArgyllCMS is up-to-date.
+2022-11-08 22:57:36,566 Executing BaseApp.OnExit()
+2022-11-08 22:57:36,566 Running application exit handlers
+2022-11-08 22:57:36,566 Waiting for thread ScriptingHost.ConnectionHandler to exit
+2022-11-08 22:57:36,733 ScriptingHost.ConnectionHandler exited
+2022-11-08 22:57:36,733 Exiting displaycal
+2022-11-08 22:57:36,733 Ran application exit handlers

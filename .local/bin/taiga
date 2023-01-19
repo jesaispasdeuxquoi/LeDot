@@ -1,0 +1,21 @@
+#!/bin/sh
+
+PS3='Which folder? '
+folders=("anime" "touhou" "feets" "pixiv" )
+select fold in "${folders[@]}"; do
+    case $fold in
+        "anime")
+            nsxiv -t $HOME/pictures/anime &
+            ;;
+        "touhou")
+            nsxiv -t $HOME/pictures/touhou &
+            ;;
+        "pixiv")
+            nsxiv -t $HOME/pictures/pixiv &
+            ;;
+        "feets")
+            nsxiv -t $HOME/pictures/feets &
+            ;;
+    esac
+    exit
+done

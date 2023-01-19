@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+output=DisplayPort-2
+secondary=DisplayPort-0
+third=DisplayPort-1
+gtf $1 $2 $3 | grep kHz
+modeline=$(gtf $1 $2 $3 | grep Modeline | tr -d '"' | cut -d" " -f4-)
+modename=$(echo $modeline | cut -d" " -f1)
+echo $modeline
+if xrandr | grep -q $modename; then
+	xrandr --delmode $output $modename
+	xrandr --rmmode $modename
+fi
+xrandr --newmode $modeline
+xrandr --addmode $output $modename
+xrandr --output  $output --mode $modename \
+	--left-of $secondary \
+	--output $third --auto --right-of $secondary \
+	--output $secondary --mode 2560x1440 --rate 164.83 \
+	
+

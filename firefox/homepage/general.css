@@ -1,0 +1,95 @@
+	@font-face
+{
+    font-family:  cascadia code;
+}
+
+html, body {
+
+    height: 100%;
+
+}
+
+html {
+
+    display: table;
+    margin: auto;
+
+}
+
+body {
+
+    font-family: cascadia code;
+    font-size: 23px !important;
+    font-weight: normal;
+    background-color: #101010;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+}
+
+nav {
+
+    color: #BFBFBF;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+ul {
+
+    display: table-cell;
+    text-align: center;
+    height: 100%;
+    border-color: transparent;
+    border-right-width: 1px;
+    border-right-style: solid;
+    transition: all 0.8s;
+    cursor: default;
+    list-style-type: none;
+
+}
+
+ul:last-of-type {
+    border-right-width: 0;
+}
+
+
+ul > li:first-of-type{
+	padding-top: 5px
+}
+
+
+ul > li > a {
+	text-decoration:none;
+	color: #efedeb;
+	transition: all 0.2s;
+}
+
+ul[class=green] > li > a:hover {
+	color: #805adb;
+	transition: all 0.2s;
+}
+
+ul[class=blue] > li > a:hover {
+	color:  #805adb;
+	transition: all 0.2s;
+}
+
+ul[class=red] > li > a:hover {
+	color:  #805adb;
+	transition: all 0.2s;
+}
+
+ul[class=yellow] > li > a:hover {
+	color: #805adb;
+	transition: all 0.2s;
+}
+
+p {
+	font-size: 10px;
+	padding : 10px;
+	color: #FFFFFF;
+}

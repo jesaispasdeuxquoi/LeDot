@@ -1,0 +1,11 @@
+#!/bin/sh
+
+u=1
+PWD=$(pwd)
+
+
+for i in *.mkv; do
+	new=$(printf "EP%02d.mkv" "$u")
+	mv -i -- "$i" "$new"
+	let u=u+1
+done

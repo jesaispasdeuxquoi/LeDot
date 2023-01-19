@@ -1,0 +1,17 @@
+:settings
+:set
+:map
+:center
+:map [normal] n search next
+:map [normal] n search forward
+/ip -c
+/le
+/ifconfig
+/network
+/mkfs
+/étiquette
+/fstab
+/tar
+/xf
+/gz
+/tar.gz

@@ -1,0 +1,41 @@
+2022-11-09 22:47:04,211 --------------------------------------------------------------------------------
+2022-11-09 22:47:04,211 Working directory:
+2022-11-09 22:47:04,212   /
+2022-11-09 22:47:04,212    tmp/
+2022-11-09 22:47:04,212     DisplayCAL-JTFpwe/
+2022-11-09 22:47:04,212 
+2022-11-09 22:47:04,212 Command line:
+2022-11-09 22:47:04,213   /usr/bin/argyll-dispread
+2022-11-09 22:47:04,213     -v
+2022-11-09 22:47:04,213     -k
+2022-11-09 22:47:04,213     /usr/share/DisplayCAL/linear.cal
+2022-11-09 22:47:04,213     -d2
+2022-11-09 22:47:04,213     -c1
+2022-11-09 22:47:04,214     -yn
+2022-11-09 22:47:04,214     -P0.510359116022,0.225328947368,1.24867724868
+2022-11-09 22:47:04,214     -X
+2022-11-09 22:47:04,214     PFS_Phosphor_Family_31Jan17.ccss
+2022-11-09 22:47:04,214     0_16
+2022-11-09 22:47:04,214 
+2022-11-09 22:47:04,220 DisplayCAL: Starting interaction with subprocess
+2022-11-09 22:47:04,627 Number of patches = 3
+2022-11-09 22:47:04,634 Setting up the instrument
+2022-11-09 22:47:05,652 Product Name:      Colormunki Display
+2022-11-09 22:47:05,652 Serial Number:     C1-22.B-02.015586.02
+2022-11-09 22:47:05,652 Firmware Version:  v2.28
+2022-11-09 22:47:05,652 Firmware Date:     29Jan14
+2022-11-09 22:47:05,655 argyll-dispread: Warning - new_dispwin: Expected VideoLUT depth 8 doesn't match actual 10
+2022-11-09 22:47:05,863 Place instrument on test window.
+2022-11-09 22:47:05,864 DisplayCAL: Detected instrument placement (screen/spot) message
+2022-11-09 22:47:05,864 DisplayCAL: Waiting for send buffer
+2022-11-09 22:47:07,365 DisplayCAL: Skipping place instrument on screen message...
+2022-11-09 22:47:07,394 DisplayCAL: Sending buffer: ' '
+2022-11-09 22:47:07,446 Hit Esc or Q to give up, any other key to continue:
+2022-11-09 22:47:19,090 Patch 3 of 3
+2022-11-09 22:47:19,091 The instrument can be removed from the screen.
+2022-11-09 22:47:19,593 Written '0_16.ti3'
+2022-11-09 22:47:19,594 DisplayCAL: Reached EOF (OK)
+2022-11-09 22:47:19,695 argyll-dispread exitcode: 0
+2022-11-09 22:47:19,704 RGB level 0 is 0.233598 cd/m2
+2022-11-09 22:47:19,704 RGB level 16 is 0.593407 cd/m2
+2022-11-09 22:47:19,704 Assuming full range output levels
