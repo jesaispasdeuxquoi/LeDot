@@ -13,17 +13,11 @@ static const char col_gray2[]       = "#151515";  //Inactive window border color
 static const char col_gray3[]       = "#ffffff";  //font color
 static const char col_gray4[]       = "#5f50bf";  //Current tag and current window font color
 static const char col_cyan[]        = "#5f50bf";  //Top bar second color and Window border
-static const char col_black[]       = "#454545";
-static const char col_red[]         = "#ff0000";
-static const char col_yellow[]      = "#ffff00";
-static const char col_white[]       = "#ffffff";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_gray1,  col_cyan  },
-	[SchemeWarn] =   { col_cyan, col_gray1, col_gray1 },
-	[SchemeUrgent]=  { col_black, col_gray1,    col_gray1 },
 };
 
 /* tagging */
@@ -65,7 +59,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run",};
 static const char *termcmd[]  = { "st", NULL };
 static const char *dmenu[] = { "dmenul", NULL };
 
@@ -74,19 +68,20 @@ static Key keys[] = {
 	{ MODKEY,                       XK_space,      spawn,          {.v = dmenucmd } },
         { MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
         { 0,                            XK_Print,      spawn,          SHCMD("maim -s --format png /dev/stdout | xclip -selection clipboard -t image/png -i") },
+        { MODKEY,                            XK_b,      spawn,          SHCMD("chromium") },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
-	{ MODKEY,                       XK_b,      focusstack,     {.i = +1 } },
+	{ MODKEY,                       XK_p,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_n,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
-	{ MODKEY,                       XK_k,      setmfact,       {.f = -0.05} },
+	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
-	{ MODKEY,                       XK_h,      setcfact,       {.f = +0.25} },
+	{ MODKEY,                       XK_k,      setcfact,       {.f = +0.25} },
 	{ MODKEY,                       XK_j,      setcfact,       {.f = -0.25} },
 	{ MODKEY|ShiftMask,             XK_o,      setcfact,       {.f =  0.00} },
 	{ MODKEY,                       XK_m,      zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
-	{ MODKEY,                       XK_w,      killclient,     {0} },
+	{ MODKEY,                       XK_z,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY|ShiftMask,             XK_f,      setlayout,      {.v = &layouts[2]} },
@@ -98,15 +93,15 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-	TAGKEYS(                        XK_ampersand,              0)
-        TAGKEYS(                        XK_eacute,                 1)
-        TAGKEYS(                        XK_quotedbl,               2)
-        TAGKEYS(                        XK_apostrophe,             3)
-        TAGKEYS(                        XK_parenleft,              4)
-        TAGKEYS(                        XK_section,                5)
-        TAGKEYS(                        XK_egrave,                 6)
-        TAGKEYS(                        XK_exclam,                 7)
-        TAGKEYS(                        XK_ccedilla,               8)
+	TAGKEYS(                        XK_1,			0)
+        TAGKEYS(                        XK_2,			1)
+        TAGKEYS(                        XK_3,			2)
+        TAGKEYS(                        XK_4,			3)
+        TAGKEYS(                        XK_5,			4)
+        TAGKEYS(                        XK_6,			5)
+        TAGKEYS(                        XK_7,			6)
+        TAGKEYS(                        XK_8,			7)
+        TAGKEYS(                        XK_9,			8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
 };
 

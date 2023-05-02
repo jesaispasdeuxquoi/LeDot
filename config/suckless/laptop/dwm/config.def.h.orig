@@ -13,10 +13,17 @@ static const char col_gray2[]       = "#151515";  //Inactive window border color
 static const char col_gray3[]       = "#ffffff";  //font color
 static const char col_gray4[]       = "#5f50bf";  //Current tag and current window font color
 static const char col_cyan[]        = "#5f50bf";  //Top bar second color and Window border
+static const char col_black[]       = "#454545";
+static const char col_red[]         = "#ff0000";
+static const char col_yellow[]      = "#ffff00";
+static const char col_white[]       = "#ffffff";
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_gray1,  col_cyan  },
+	[SchemeWarn] =   { col_cyan, col_gray1, col_gray1 },
+	[SchemeUrgent]=  { col_black, col_gray1,    col_gray1 },
 };
 
 /* tagging */
