@@ -14,6 +14,9 @@ user_pref("keyword.enabled", true);
 //Hide "Enable DRM" message"
 user_pref("browser.eme.ui.enabled", false);
 
+// Remove Addons icon 
+user_pref("extensions.unifiedExtensions.enabled", false);
+
 //Reenable search engines
 user_pref("browser.sessionstore.restore_tabs_lazily", false);
 user_pref("browser.sessionstore.restore_on_demand", false);
