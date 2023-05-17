@@ -1,26 +1,12 @@
-@-moz-document url-prefix(about:blank) {
-    html > body:empty {
-        background-color: rgb(16,16,16) !important;
-    }
-}
-@-moz-document url(about:blank) {
-    html > body:empty {
-        background-color: rgb(16,16,16) !important;
-    }
+#viewerContainer > #viewer > .page > .canvasWrapper > canvas {
+   filter: grayscale(100%);
+   filter: invert(100%);
 }
 
-
-@-moz-document url("about:blank") {
-    @media (prefers-color-scheme: dark) {
-        :root {
-            background-color: #101010;
-        }
+@-moz-document url("about:newtab"),url("about:blank"), url("about:home") {  
+   
+        background-color: #131313 !important;
     }
-}
-
-body {
-		background-color: #101010;
-	}
 
 
 

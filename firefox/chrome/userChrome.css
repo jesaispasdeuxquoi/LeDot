@@ -2,8 +2,8 @@
 
 
 :root {
-  --sfwindow: #101010;
-  --sfsecondary: #101010;
+  --sfwindow: #131313;
+  --sfsecondary: #131313;
 }
 
 :root[uidensity=compact] {
@@ -20,11 +20,14 @@
    
 #PersonalToolbar,
 #nav-bar {
+	font-size:12px;
   opacity: 0;
   transition: margin-bottom 100ms ease-in-out, opacity 100ms ease-out !important;
 }
 #nav-bar {
-  margin-bottom: -40px;
+	height: 35px !important;
+	font-size:12px;
+  margin-bottom: -34px;
 }
 #PersonalToolbar {
   margin-bottom: -28px;
@@ -32,10 +35,17 @@
 #navigator-toolbox:hover > .browser-toolbar,
 #nav-bar:focus-within,
 #nav-bar:focus-within + #PersonalToolbar {
-  margin-bottom: 0;
+	font-size:12px;
+  margin-bottom: -0px !important;
   opacity: 1;
 }
 
+.tab-icon-overlay {
+  display: none;
+}
+.tab-icon-image {
+  opacity: 1 !important;
+}
 
 /* MIN MAX CLOSE Remove */
 #TabsToolbar > .titlebar-buttonbox-container {
@@ -55,7 +65,7 @@
   > .tab-stack
   > .tab-background[selected="true"] {
   background-image: none !important;
-  background: rgb(16,16,16) !important;
+  background: #131313 !important;
   color: black
 }
 
@@ -76,30 +86,28 @@ background-color: #322f2b !important;
 
 /* End OF LOADING PAGE BLUE EFFECT REMOVED */
     .tab-loading-burst {
-
     display: none !important;
-
     }
+.tab-throbber{ display: none !important;} 
+
 /* CENTER  URL BAR*/
 #urlbar .urlbar-input-box {
    text-align: center;
    letter-spacing: 2px !important;
 }
 
-
-/* CENTER  LABEL TAB*/
-.tabbrowser-tab[selected]:not(:hover):not([pinned]) .tab-label-container,
-#tabbrowser-tabs:not([closebuttons="activetab"]) .tabbrowser-tab:not:not([pinned]) .tab-label-container{ margin-inline-end: 7px }
-.tab-content:not([pinned])::before{
-  display: -moz-box;
-  content: "";
-  -moz-box-flex: 1;
+/* CENTER  TAB LABEL */
+.tab-label{
+  margin-inline: auto !important;
+}
+.tab-close-button{
+  width: 24px !important;
+  padding: 6px !important;
 }
 
-
-
 /* CENTER  TAB*/
-scrollbox[orient="horizontal"]{ -moz-box-pack: center; }
+/* scrollbox[orient="horizontal"]{ -moz-box-pack: center; } */
+scrollbox[orient="horizontal"]{ justify-content: center }
 
 /* TAB TEXT COLOR*/
 .tabbrowser-tab .tab-label[selected="true"] { color: #ffffff !important; }
@@ -119,7 +127,7 @@ transition-duration: 0.35s;
 /* HOVER TAB */
 .tabbrowser-tab:hover:not([selected]) .tab-content {
   border-left: -2px !important;
-  background-color: #101010 !important; 
+  background-color: #131313 !important; 
   }
   
 
@@ -132,23 +140,7 @@ transition-duration: 0.35s;
 
 
 
-/* Back Hide */
-/*#back-button[disabled="true"] { display: none !important }*/
-#back-button{ display: none !important }
-
-/* Forward Hide */
-/*#forward-button[disabled="true"] { display: none !important }*/
-#forward-button{ display: none !important }
-
-/* Site information button */
-#identity-box { display: none !important }
-
-/* "Shield" icon */
-#tracking-protection-icon-container { display: none !important }
-
-#PanelUI-button { display:none!important; }
 #bookmarks-menu-button toolbarbutton { visibility:collapse !important; }
-#page-action-buttons { display:none!important; }
 
 
 /* Inactive tabs color */
@@ -243,7 +235,22 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   min-width: 1.6em;
 }
 
-/* Toolbar  */
+
+.urlbarView-url {
+  color: #dedede !important;
+}
+
+/* Disable elements  */
+#PanelUI-button, 
+#page-action-buttons,
+#back-button,
+#forward-button,
+#identity-box ,
+#tracking-protection-icon-container ,
+#page-action-buttons ,
+#context-navigation,
+#context-savepage,
+#context-pocket,
 #tracking-protection-icon-container,
 #urlbar-zoom-button,
 #star-button-box,
@@ -253,59 +260,71 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 #back-button,
 #PanelUI-button,
 #forward-button,
-.tab-secondary-label {
-  display: none !important;
-}
-
-.urlbarView-url {
-  color: #dedede !important;
-}
-
-/* Disable elements  */
-#context-navigation,
-#context-savepage,
-#context-pocket,
 #context-sendpagetodevice,
 #context-selectall,
 #context-viewsource,
 #context-inspect-a11y,
+#unified-extensions-button, 
 #context-sendlinktodevice,
 #context-openlinkinusercontext-menu,
 #context-bookmarklink,
 #context-savelink,
 #context-savelinktopocket,
 #context-sendlinktodevice,
+#context_bookmarkTab,
+#context_moveTabOptions,
+#context_sendTabToDevice,
+#context_reopenInContainer,
+#context_selectAllTabs,
+#context_closeTabOptions ,
 #context-searchselect,
 #context-sendimage,
 #context-print-selection {
   display: none !important;
 }
 
-#context_bookmarkTab,
-#context_moveTabOptions,
-#context_sendTabToDevice,
-#context_reopenInContainer,
-#context_selectAllTabs,
-#context_closeTabOptions {
-  display: none !important;
-}
 
 #tabbrowser tabpanels { background-color: rgb(26,28,29) !important; }
-#browser { background-color: #101010 !important; }
+#browser { background-color: #131313 !important; }
 #webextpanels-window,
 #webext-panels-stack,
 #webext-panels-browser {
-    background: #101010 !important;
+    background: #131313 !important;
 }
+
+
+.browsercontainer { background-color: #131313 !important; }
+.tabbrowser tabpanels { background-color: #131313 !important; }
 
 #browser vbox#appcontent tabbrowser, #content, #tabbrowser-tabpanels, 
 browser[type=content-primary],browser[type=content] > html {
-    background: #101010 !important
+    background: #131313 !important
 }
 
 #webrtcIndicator {
   display: none !important;
 }
+
+menupopup {
+	-moz-appearance: none !important;
+	background-color: #131313 !important;
+	border: 0px solid  !important;
+	margin: -1px 0 0 0 !important;
+}
+menuseparator {
+	-moz-appearance: none !important;
+	max-height: 0px !important;
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 0px !important;
+}
+
+#unified-extensions-button {
+  display: none !important;
+}
+
+
+.menupopup-arrowscrollbox {  border: 1px outset #151515 !important;  }
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
 
