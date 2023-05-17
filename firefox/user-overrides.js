@@ -1,6 +1,9 @@
 // Disabling RFP. Stuttering issues...
 user_pref("privacy.resistFingerprinting", false);
 
+// Enable compact tab mode 
+user_pref("browser.compactmode.show", true);
+
 // Pixiv loading issue
 user_pref("network.http.referer.XOriginTrimmingPolicy", 0);
 user_pref("network.http.referer.XOriginPolicy", 0);
